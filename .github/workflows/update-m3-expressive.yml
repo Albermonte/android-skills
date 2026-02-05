@@ -1,0 +1,41 @@
+name: Update M3 Expressive References
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Update references
+        run: |
+          python skills/material-3-expressive/scripts/update_m3_expressive_refs.py
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: codex/m3-expressive-refresh
+          delete-branch: true
+          title: "chore: refresh M3 Expressive references"
+          commit-message: "chore: refresh M3 Expressive references"
+          body: "Automated refresh of Material 3 Expressive references and token files."
