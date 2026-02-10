@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/navigation-bar/overview
-Generated: 2026-02-05
+Generated: 2026-02-10
 
 Extracted guidance
 - Use navigation bars in compact or medium window sizes Can contain 3-5 destinations of equal importance Destinations don't change. They should be consistent across app screens.

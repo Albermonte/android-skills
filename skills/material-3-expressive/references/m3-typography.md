@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/styles/typography/overview
-Generated: 2026-02-05
+Generated: 2026-02-10
 
 Extracted guidance
 - Use variable fonts for more control over expression in editorial treatments

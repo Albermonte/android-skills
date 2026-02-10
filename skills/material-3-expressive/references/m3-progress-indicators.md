@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/progress-indicators/overview
-Generated: 2026-02-05
+Generated: 2026-02-10
 
 Extracted guidance
 - Use the same configuration for all instances of a process (like loading)
