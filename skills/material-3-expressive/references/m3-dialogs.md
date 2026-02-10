@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/dialogs/overview
-Generated: 2026-02-05
+Generated: 2026-02-10
 
 Extracted guidance
 - Two types: basic and full-screen

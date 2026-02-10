@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/extended-fab/overview
-Generated: 2026-02-05
+Generated: 2026-02-10
 
 Extracted guidance
 - Three sizes: small, medium, and large

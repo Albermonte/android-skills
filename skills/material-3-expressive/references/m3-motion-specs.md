@@ -2,10 +2,9 @@
 
 Source URL:
 https://m3.material.io/styles/motion/overview/specs
+Generated: 2026-02-10
 
 Extracted guidance
-- A motion system designed for expression May 2025 Material introduced the motion physics system with M3 Expressive. This new physics-based system makes interactions and transitions feel more alive, fluid, and natural. It represents a new motion language for Google products, and is easier to implement and customize than ever before. The physics system is replacing the previous system based on easing and duration . More on M3 Expressive
-- Availability & resources Type Link Status Implementation MDC-Android Available. Not yet added to components. See specs Flutter Unavailable Jetpack Compose Available Web Compatible with Compose springs. See specs
 - The basics: Motion schemes The physics system has two preset motion schemes: expressive and standard . The motion scheme you choose defines how your product feels. While most motion in a product should use the same scheme, products can make advanced customizations to swap the scheme to emphasize key moments.
 - Expressive is Material's opinionated motion scheme, and should be used for most situations, particularly hero moments and key interactions.
 - Standard feels more functional with minimal bounce, and should be used for utilitarian products.
@@ -19,7 +18,6 @@ Extracted guidance
 - Speed Spatial and effect spring tokens come in three speeds: default , fast , and slow . Most motion should use the default speed, while smaller elements may use fast and larger elements may use slow.
 - Speed Spatial example Effects example Default Animations that partially cover the screen, such as bottom sheet and expanded navigation rail Opacity of the content within a navigation rail Fast Small components, such as switches and buttons Color change of the switch handle Slow Full-screen animations Full-screen content refresh
 - Spring tokens work across devices. For example, the spatial fast token will always be faster than default or slow, but the exact values of each token differ depending on if the device is a wearable, phone, or tablet. This ensures the movement feels fast in the context of the device.
-- Application
 - Components On Jetpack Compose, 21 Material components use the motion physics system by default. MDC-Android support is coming soon. To add the motion physics system to other components, including custom-built components, use spring tokens. View full specs
 - Advanced customizations There are a few different levels for applying motion. Choose the level that applies best to your product or specific component.
 - Level 1: Use a default motion scheme The expressive and standard schemes should be sufficient for all motion needs. On Jetpack Compose, components use these schemes by default.

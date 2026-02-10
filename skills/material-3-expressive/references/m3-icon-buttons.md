@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/icon-buttons/overview
-Generated: 2026-02-05
+Generated: 2026-02-10
 
 Extracted guidance
 - Icon buttons must use a system icon with a clear meaning Two types: default and toggle Many configurations: Color, size, width, and shape On web, display a tooltip describing the action while hovering In toggle buttons, use the outlined style of an icon for the unselected state, and the filled style for the selected state

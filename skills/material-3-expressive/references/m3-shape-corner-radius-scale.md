@@ -2,20 +2,18 @@
 
 Source URL:
 https://m3.material.io/styles/shape/corner-radius-scale
+Generated: 2026-02-10
 
 Extracted guidance
 - Use abstract shapes thoughtfully to add emphasis and decorative flair
 - Leverage Material shapes for built-in shape morphing
 - Rectangular shapes are fully rounded in all corners by default
 - Individual corners can be adjusted to create asymmetrical rectangular shapes
-- Availability & resources
 - Type Resource Status Design Shape library (Figma Design Kit) Available Implementation Jetpack Compose (Shape Library) Available MDC-Android Available
-- M3 Expressive update
 - Large increased (20dp)
 - Extra large increased (32dp)
 - Extra extra large (48dp)
 - Updated fully rounded corners to use full . Previously, this was defined using 50% of the component size.
-- Shape library
 - Use shapes and text in harmony Shapes are expressive elements of Material 3 that echo key visual attributes of M3 typography . Use shape and type together for products to feel cohesive and polished.
 - Interaction states, like when a button is selected
 - Actions in progress, like a friend typing, or a page loading
@@ -38,9 +36,7 @@ Extracted guidance
 - Extra large increased - 32dp
 - Extra extra large - 48dp
 - Full - fully rounded corners
-- Symmetry
 - Components can have either symmetric or asymmetric corner shapes. Symmetric shapes have the same values for all corners, while asymmetric shapes can have corners with different values. Both symmetric and asymmetric shapes use the same 10-step scale. Asymmetrical shapes are used in M3 components with closely-grouped items, such as menus and split buttons. These are called inner corners .
-- Customizing shapes
 - Generally, products should consistently use the Material 3 shape styles. However, customization is sometimes necessary, and even encouraged, for hero moments or custom components. Shapes can be customized at the style or component level.
 - Style changes The corner radius shape style, like medium , can be customized to be a different size. This applies the change to all components mapped to that shape style, unless they have an override.
 - Component changes The style of a specific component, such as a button, can be changed by customizing which corner radius shape style it maps to. For example, by default, buttons are mapped to the full corner radius shape style. If your product needs a less rounded shape, remap the token to another style in the shape scale, such as small or medium .
