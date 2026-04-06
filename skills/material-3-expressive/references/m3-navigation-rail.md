@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/navigation-rail/overview
-Generated: 2026-02-10
+Generated: 2026-04-06
 
 Extracted guidance
 - Use navigation rails in medium, expanded, large, or extra-large window sizes Can contain 3-7 destinations plus an optional FAB Always put the rail in the same place, even on different screens of an app
@@ -17,7 +17,6 @@ Extracted guidance
 - Behavior: Predictive back interaction Color: New color mappings and compatibility with dynamic color States: The active destination can be indicated with a pill shape in a contrasting color
 - Variant M3 M3 Expressive Collapsed navigation rail -- Available Expanded navigation rail -- Available Navigation rail (baseline) Available Not recommended. Use collapsed navigation rail .
 - Category Configuration M3 M3 Expressive Expanded layout Standard (default) Available as navigation drawer Available Modal Available as navigation drawer Available Expanded behavior Hide when collapsed -- Available
-- Tokens and specs
 - Browse the component elements, attributes, tokens, and their values. Learn about design tokens
 - Color Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens; in implementation, a color value will be a token that references a value. Learn more about design tokens
 - States States are visual representations used to communicate the status of a component or an interactive element. The navigation item's target area always spans the full width of the nav rail, even if the item container hugs its contents.

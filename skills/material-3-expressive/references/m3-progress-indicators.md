@@ -2,23 +2,25 @@
 
 Source URL:
 https://m3.material.io/components/progress-indicators/overview
-Generated: 2026-02-10
+Generated: 2026-04-06
 
 Extracted guidance
+- Two variants: linear and circular
 - Use the same configuration for all instances of a process (like loading)
 - They capture attention through motion
 - Option to apply a wave to the active track for use cases that would benefit from increased expressiveness
-- Contrast : Higher contrast between track and active indicator to enhance the perception of progress
-- Motion : New motion behavior
-- Shape : Rounded corners
+- Track height: Configurable
+- Contrast: Higher contrast between track and active indicator to enhance the perception of progress
+- Motion: New motion behavior
+- Shape: Rounded corners
 - Differences from M2
 - Color: New color mappings and compatibility with dynamic color
-- Type Original M3 M3 Expressive Linear progress indicator Available Available Circular progress indicator Available Available
-- Category Configuration Original M3 M3 Expressive Behavior Determinate (default), Indeterminate Available Available Track thickness Fixed (4dp) Available Available Configurable -- Available Shape Flat (default) Available Available Wavy -- Available
+- Variant M3 M3 Expressive Linear progress indicator Available Available Circular progress indicator Available Available
+- Category Configuration M3 M3 Expressive Behavior Determinate (default), Indeterminate Available Available Track thickness Fixed (4dp) Available Available Configurable -- Available Shape Flat (default) Available Available Wavy -- Available
 - Wavy indicators use amplitude and wavelength to determine the shape of the wave. The height is the overall container height.
-- The circular and linear progress indicator had separate token sets. These are now deprecated.
+- The circular and linear progress indicator had separate token sets. These are no longer recommended.
 - Use progress indicators to show the status of ongoing processes, such as loading an app, submitting a form, or saving updates. When multiple items are loading, use a single progress indicator to show progress for the group. Don't add progress indicators to every activity.
-- Choose a loading or progress indicator that corresponds to the expected wait time and type of process. If the wait is very long, consider allowing people to navigate away from the page while the process finishes up.
+- Choose a loading or progress indicator that corresponds to the expected wait time and kind of process. If the wait is very long, consider allowing people to navigate away from the page while the process finishes up.
 - Expected wait time Recommendation Instant (under 200ms) No indicator Short (between 200ms and 5s) Loading indicator Long (Over 5s) Progress indicator
 - Determinate : Known progress and wait time
 - Indeterminate : Unknown progress and wait time
@@ -39,4 +41,4 @@ Extracted guidance
 - The active indicator, which displays progress, provides visual contrast of at least 3:1 against most background colors.
 - When integrated into another component, such as a button, make sure that the active indicator provides visual contrast of at least 3:1 against the other component. For the active indicator, use the same color as the label text or icon. The track should be removed.
 - For linear progress indicators, the stop indicator is required if the track has a contrast below 3:1 with its container or the surface behind the container. Essentially, the end of the track must be easy to identify.
-- Since the progress indicator is a visual cue, it needs an accessibility label to describe the type and amount of progress made. Use the progress bar accessibility role, and write an accessibility label that describes the purpose of the progress indicator. The label should include the process, such as "loading," and the affected content, such as a page, article, or episode. For example: "Loading news article" or "Refreshing page."
+- Since the progress indicator is a visual cue, it needs an accessibility label to describe the kind and amount of progress made. Use the progress bar accessibility role, and write an accessibility label that describes the purpose of the progress indicator. The label should include the process, such as "loading," and the affected content, such as a page, article, or episode. For example: "Loading news article" or "Refreshing page."

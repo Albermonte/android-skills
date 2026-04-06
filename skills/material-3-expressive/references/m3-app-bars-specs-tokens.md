@@ -24,19 +24,28 @@ Token group index
 - md.comp.app-bar.trailing-icon
 - md.comp.app-bar.trailing-space
 - md.comp.search-bar.avatar
+- md.comp.search-bar.contained
 - md.comp.search-bar.container
 - md.comp.search-bar.focus
 - md.comp.search-bar.hover
+- md.comp.search-bar.icon
 - md.comp.search-bar.input-text
 - md.comp.search-bar.leading-icon
+- md.comp.search-bar.leading-space
 - md.comp.search-bar.pressed
 - md.comp.search-bar.supporting-text
 - md.comp.search-bar.trailing-icon
+- md.comp.search-bar.trailing-space
+- md.comp.search-view.contained
 - md.comp.search-view.container
 - md.comp.search-view.divider
 - md.comp.search-view.docked
 - md.comp.search-view.full-screen
 - md.comp.search-view.header
+- md.comp.search-view.leading-icon
+- md.comp.search-view.leading-space
+- md.comp.search-view.trailing-icon
+- md.comp.search-view.trailing-space
 - md.comp.top-app-bar.large
 - md.comp.top-app-bar.medium
 - md.comp.top-app-bar.small
@@ -60,6 +69,7 @@ Token group index
 - md.ref.palette.neutral90
 - md.ref.palette.neutral92
 - md.ref.palette.neutral94
+- md.ref.palette.neutral96
 - md.ref.palette.neutral98
 - md.ref.palette.primary20
 - md.ref.palette.primary30
@@ -88,10 +98,12 @@ Token group index
 - md.sys.color.surface-container
 - md.sys.color.surface-container-high
 - md.sys.color.surface-container-highest
+- md.sys.color.surface-container-low
 - md.sys.color.surface-tint
 - md.sys.elevation.level0
 - md.sys.elevation.level2
 - md.sys.elevation.level3
+- md.sys.motion.spring
 - md.sys.shape.corner
 - md.sys.state.focus-indicator
 - md.sys.state.hover
@@ -186,6 +198,20 @@ Token group index
 - md.comp.search-bar.avatar.shape: SHAPE_FAMILY_CIRCULAR
 - md.comp.search-bar.avatar.size: 30dp
 
+## md.comp.search-bar.contained
+- md.comp.search-bar.contained.avatar.target-size: 48dp
+- md.comp.search-bar.contained.icon-label.gap: 4dp
+- md.comp.search-bar.contained.leading-margin: 24dp
+- md.comp.search-bar.contained.leading-space: 4dp
+- md.comp.search-bar.contained.motion.spring: composite(damping=0.9, stiffness=1400)
+- md.comp.search-bar.contained.no-actions.leading-space: 16dp
+- md.comp.search-bar.contained.no-actions.trailing-space: 16dp
+- md.comp.search-bar.contained.trailing-actions.gap: 0dp
+- md.comp.search-bar.contained.trailing-actions.leading-space: 4dp
+- md.comp.search-bar.contained.trailing-actions.trailing-space: 4dp
+- md.comp.search-bar.contained.trailing-margin: 24dp
+- md.comp.search-bar.contained.trailing-space: 4dp
+
 ## md.comp.search-bar.container
 - md.comp.search-bar.container.color: #E9EEF6
 - md.comp.search-bar.container.elevation: 6dp
@@ -203,6 +229,9 @@ Token group index
 - md.comp.search-bar.hover.state-layer.opacity: 0.08
 - md.comp.search-bar.hover.supporting-text.color: #444746
 
+## md.comp.search-bar.icon
+- md.comp.search-bar.icon.size: 24dp
+
 ## md.comp.search-bar.input-text
 - md.comp.search-bar.input-text.color: #1F1F1F
 - md.comp.search-bar.input-text.font: Google Sans Text
@@ -214,6 +243,10 @@ Token group index
 
 ## md.comp.search-bar.leading-icon
 - md.comp.search-bar.leading-icon.color: #1F1F1F
+- md.comp.search-bar.leading-icon.leading-icon-label-space: 16dp
+
+## md.comp.search-bar.leading-space
+- md.comp.search-bar.leading-space: 16dp
 
 ## md.comp.search-bar.pressed
 - md.comp.search-bar.pressed.state-layer.color: #1F1F1F
@@ -231,6 +264,20 @@ Token group index
 
 ## md.comp.search-bar.trailing-icon
 - md.comp.search-bar.trailing-icon.color: #444746
+- md.comp.search-bar.trailing-icon.label-trailing-icon-space: 16dp
+
+## md.comp.search-bar.trailing-space
+- md.comp.search-bar.trailing-space: 16dp
+
+## md.comp.search-view.contained
+- md.comp.search-view.contained.background.color: (unresolved)
+- md.comp.search-view.contained.docked.bar-results.gap: 2dp
+- md.comp.search-view.contained.docked.bar.shape: SHAPE_FAMILY_CIRCULAR
+- md.comp.search-view.contained.docked.results.shape: SHAPE_FAMILY_ROUNDED_CORNERS
+- md.comp.search-view.contained.full-screen.bar.container.height: 56dp
+- md.comp.search-view.contained.icon-label.gap: 4dp
+- md.comp.search-view.contained.leading-margin: 12dp
+- md.comp.search-view.contained.trailing-margin: 12dp
 
 ## md.comp.search-view.container
 - md.comp.search-view.container.color: #E9EEF6
@@ -265,6 +312,18 @@ Token group index
 - md.comp.search-view.header.supporting-text.type: type(font=Google Sans Text, weight=400, size=16pt, tracking=0pt, lineHeight=24pt)
 - md.comp.search-view.header.supporting-text.weight: 400
 - md.comp.search-view.header.trailing-icon.color: #444746
+
+## md.comp.search-view.leading-icon
+- md.comp.search-view.leading-icon.leading-icon-label-space: 16dp
+
+## md.comp.search-view.leading-space
+- md.comp.search-view.leading-space: 16dp
+
+## md.comp.search-view.trailing-icon
+- md.comp.search-view.trailing-icon.label-trailing-icon-space: 16dp
+
+## md.comp.search-view.trailing-space
+- md.comp.search-view.trailing-space: 16dp
 
 ## md.comp.top-app-bar.large
 - md.comp.top-app-bar.large.container.color: #FFFFFF
@@ -404,6 +463,9 @@ Token group index
 ## md.ref.palette.neutral94
 - md.ref.palette.neutral94: #F3EDF7
 
+## md.ref.palette.neutral96
+- md.ref.palette.neutral96: #F7F2FA
+
 ## md.ref.palette.neutral98
 - md.ref.palette.neutral98: #FEF7FF
 
@@ -488,6 +550,9 @@ Token group index
 ## md.sys.color.surface-container-highest
 - md.sys.color.surface-container-highest: #DDE3EA
 
+## md.sys.color.surface-container-low
+- md.sys.color.surface-container-low: #F8FAFD
+
 ## md.sys.color.surface-tint
 - md.sys.color.surface-tint: #6991D6
 
@@ -500,9 +565,15 @@ Token group index
 ## md.sys.elevation.level3
 - md.sys.elevation.level3: 6dp
 
+## md.sys.motion.spring
+- md.sys.motion.spring.fast.spatial: composite(damping=0.9, stiffness=1400)
+- md.sys.motion.spring.fast.spatial.damping: 0.9
+- md.sys.motion.spring.fast.spatial.stiffness: 1400
+
 ## md.sys.shape.corner
 - md.sys.shape.corner.extra-large: SHAPE_FAMILY_ROUNDED_CORNERS
 - md.sys.shape.corner.full: SHAPE_FAMILY_CIRCULAR
+- md.sys.shape.corner.medium: SHAPE_FAMILY_ROUNDED_CORNERS
 - md.sys.shape.corner.none: SHAPE_FAMILY_ROUNDED_CORNERS
 
 ## md.sys.state.focus-indicator
