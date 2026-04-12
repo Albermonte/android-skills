@@ -2,21 +2,23 @@
 
 Source URL:
 https://m3.material.io/components/button-groups/overview
-Generated: 2026-02-10
+Generated: 2026-04-06
 
 Extracted guidance
-- Two types: standard and connected
+- Two variants: standard and connected
 - Applies shape morph when pressed and selected
 - Connected button groups replace the segmented button
 - Works with all button sizes: XS, S, M, L, and XL
 - Support for single-select, multi-select, and selection-required
 - Added standard button group
-- Added connected button group Use instead of segmented button, which is deprecated
+- Added connected button group Use instead of segmented button, which is no longer recommended
 - Applies default shape to all buttons: round or square
-- Type Original M3 M3 Expressive Standard button group -- Available Connected button group Available as segmented button Available
-- Standard and connected button group tokens are organized by size. Select the type and size from the token set menu. Go to the button and icon button pages to view their tokens. Learn about design tokens
+- Variant M3 M3 Expressive Standard button group -- Available Connected button group Available as segmented button Available
+- Category Configuration M3 M3 Expressive Size XS, S, M, L, XL -- Available Default shape Round, square -- Available Selection Single-select, multi-select, selection-required Available as segmented button Available
+- Standard and connected button group tokens are organized by size. Select the variant and size from the token set menu. Go to the button and icon button pages to view their tokens. Learn about design tokens
 - Button groups are invisible containers that add padding between buttons and modify button shape. They don't contain any buttons by default.
 - Common layouts Mix and match buttons and icon buttons for different scenarios.
+- Color Button groups have no color properties. They can use the default button or toggle button color styles, like filled, tonal, and outlined. Avoid using standard icon buttons or text buttons, as they have no container treatment.
 - Selection & activation
 - Standard button groups add interaction between adjacent buttons when a button is selected or activated. This interaction changes the width, shape, and padding of the selected or activated button, which adjusts the width of buttons directly next to it.
 - Connected button groups don't add any interaction between buttons when selected or activated. They only affect the shape of the button being selected or activated.
@@ -33,10 +35,13 @@ Extracted guidance
 - The selected button changes shape and width
 - A selected toggle button also changes color
 - Adjacent buttons move and temporarily change width
-- Mix and match the different types of buttons, widths, and colors to emphasize what's important, and to visually group related buttons. By default, all buttons in a standard group should be the same size (XS to XL) and shape (round or square). Only use multiple sizes in a group for hero moments Avoid mixing sizes frequently Only use a different shape in a group when a button is selected, or to add meaning or contrast
-- Connected button groups help people select options, switch views, or sort elements in a page. They behave similarly to standard groups, except they don't affect adjacent buttons. Connected groups should replace the segmented button, which is deprecated.
+- Only use multiple sizes in a group for hero moments
+- Avoid mixing sizes frequently
+- Only use a different shape in a group when a button is selected, or to add meaning or contrast
+- Connected button groups help people select options, switch views, or sort elements in a page. They behave similarly to standard groups, except they don't affect adjacent buttons. Connected groups should replace the baseline segmented button, which is no longer recommended.
 - Use connected button groups when the button content is related, and buttons can be selected.
 - Connected button groups should be used for single or multi-select patterns that use toggle buttons. Avoid using a connected group when none of the buttons can be toggled.
+- Color Avoid mixing color styles in connected button groups; it can make selection and emphasis unclear.
 - Container The standard button group container has padding between buttons so they can animate width and shape without disrupting the product layout. The standard button group hugs the width of the buttons inside.
 - The connected button group should span the width of the page or surface it's placed on, increasing the button widths inside. In larger windows, consider adding a maximum width to the connected group to avoid it growing too wide.
 - Fixed : Manually define the button width (narrow to wide), size (XS to XL), or padding at each window size.

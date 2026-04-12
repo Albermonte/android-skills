@@ -2,10 +2,14 @@
 
 Source URL:
 https://m3.material.io/components/icon-buttons/overview
-Generated: 2026-02-10
+Generated: 2026-04-06
 
 Extracted guidance
-- Icon buttons must use a system icon with a clear meaning Two types: default and toggle Many configurations: Color, size, width, and shape On web, display a tooltip describing the action while hovering In toggle buttons, use the outlined style of an icon for the unselected state, and the filled style for the selected state
+- Icon buttons must use a system icon with a clear meaning
+- Two variants: default and toggle
+- Many configurations: Color, size, width, and shape
+- On web, display a tooltip describing the action while hovering
+- In toggle buttons, use the outlined style of an icon for the unselected state, and the filled style for the selected state
 - Default and toggle (selection)
 - Color styles are now configurations. (filled, tonal, outlined, standard)
 - Round and square options
@@ -13,12 +17,12 @@ Extracted guidance
 - Shape morphs when selected
 - Differences from M2
 - Color: New color mappings and compatibility with dynamic color
-- Types and naming: Icon buttons were called toggle buttons. There are now two types of icon buttons: default and toggle.
-- Type Original M3 M3 Expressive Default Available Available Toggle (selection) Available Available
-- Category Options Original M3 M3 Expressive Size Small (default) Available Available XS, M, L, XL -- Available Shape Round (default) Available Available Square -- Available Color Filled (default), tonal, outlined, standard Available Available Width Default Available Available Narrow, wide -- Available
+- Variants and naming: Icon buttons were called toggle buttons. There are now two variants of icon buttons: default and toggle.
+- Variant M3 M3 Expressive Default Available Available Toggle (selection) Available Available
+- Category Options M3 M3 Expressive Size Small (default) Available Available XS, M, L, XL -- Available Shape Round (default) Available Available Square -- Available Color Filled (default), tonal, outlined, standard Available Available Width Default Available Available Narrow, wide -- Available
 - Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens; in implementation, a color value will be a token that references a value. There are four built-in color styles: filled, tonal, outlined, and standard. Default and toggle buttons use different color roles per style.
 - star Note: These color roles were chosen to create design coherence and familiarity. Other color roles can be used as long as the container and text have a 3:1 contrast ratio. For example, tertiary and on tertiary.
-- 1. Default 2. Toggle, unselected 3. Toggle, selected Filled container Filled icon Primary On primary Surface container highest Primary Primary On primary Tonal container Tonal icon Secondary container On secondary container Surface container highest On surface variant Secondary container On secondary container Outlined container Outlined icon Outline variant (outline) On surface variant Outline variant (outline) On surface variant Inverse surface Inverse on surface Standard icon On surface variant On surface variant Primary
+- 1. Default 2. Toggle, unselected 3. Toggle, selected Filled container Filled icon Primary On primary Surface container On surface variant Primary On primary Tonal container Tonal icon Secondary container On secondary container Secondary container On secondary container Secondary On secondary Outlined container Outlined icon Outline variant (outline) On surface variant Outline variant (outline) On surface variant Inverse surface Inverse on surface Standard icon On surface variant On surface variant Primary
 - States are visual representations used to communicate the status of a component or interactive element. State layers slightly change button color. Disabled states have different base colors. View tokens for details
 - Filled button states Default
 - Tonal button states Default
@@ -30,7 +34,7 @@ Extracted guidance
 - Target sizes Extra small and small icon buttons must have a target size of 48x48dp or larger to be accessible.
 - Button corner radius
 - XS S M L XL A. Round button Full Full Full Full Full B. Square button 12dp 12dp 16dp 28dp 28dp C. Pressed state 8dp 8dp 12dp 16dp 16dp
-- Use the table's menu to select a token set. Only filled, tonal, and outlined icon button tokens are deprecated. Standard tokens are still available in the module at the top of the page.
+- Use the table's menu to select a token set. Filled, tonal, and outlined icon button tokens are no longer recommended. Standard tokens are still available in the module at the top of the page.
 - Default icon buttons can open other elements, such as a menu or search.
 - Toggle icon buttons can represent binary actions that can be toggled on and off, such as favorite or bookmark .
 - Color There are four icon button color styles, in order of emphasis: Filled Tonal Outlined Standard For the highest emphasis, use the filled style. For the lowest emphasis, use standard.

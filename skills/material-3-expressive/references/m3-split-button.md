@@ -2,13 +2,13 @@
 
 Source URL:
 https://m3.material.io/components/split-button/overview
-Generated: 2026-02-10
+Generated: 2026-04-06
 
 Extracted guidance
 - Use to show an action with a menu of related actions
 - Same size range as buttons and icon buttons: XS, S, M, L, XL
-- Type Original M3 M3 Expressive Split button -- Available
-- Category Configuration Original M3 M3 Expressive Size XS, S, M, L, XL -- Available Color Elevated, filled, tonal, outlined -- Available
+- Variant M3 M3 Expressive Split button -- Available
+- Category Configuration M3 M3 Expressive Size XS, S, M, L, XL -- Available Color Elevated, filled, tonal, outlined -- Available
 - Use the table's menu to select a token set. Split button token sets are organized by size. Learn about design tokens
 - The leading button in split buttons can have an icon, label text, or both. The trailing button should always have a menu icon.
 - Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens; in implementation, a color value will be a token that references a value.

@@ -2,38 +2,38 @@
 
 Source URL:
 https://m3.material.io/components/extended-fab/overview
-Generated: 2026-02-10
+Generated: 2026-04-06
 
 Extracted guidance
-- Three sizes: small, medium, and large
+- Use for the most common or important action on a screen
+- Three variants: small, medium, and large
 - Use instead of FAB when label text is needed to understand action
 - Added new sizes Small: 56dp
-- Deprecated Original extended FAB (56dp)
+- No longer recommended Baseline extended FAB (56dp)
 - Surface extended FAB
 - Adjusted typography to be larger
 - Differences from M2
 - Layout: Extended FAB is the same height as the FAB
 - Shape: Boxier style with smaller corner radius
-- The original extended FAB is deprecated in the expressive update. Use a small extended FAB; the type style was updated from label large to title medium , and the inner padding was reduced. View deprecated extended FAB specs
-- Type Original M3 M3 Expressive Small extended FAB -- Available Medium extended FAB -- Available Large extended FAB -- Available Extended FAB Available Deprecated Use small extended FAB
+- Variant M3 M3 Expressive Small extended FAB -- Available Medium extended FAB -- Available Large extended FAB -- Available Extended FAB (baseline) Available Not recommended. Use small extended FAB.
 - Use the table's menu to select a token set. Extended FAB tokens are organized by size and color.
 - Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. Learn more about design tokens
 - Color styles Extended FABs can use several combinations of color and on color styles, such as primary and on primary . The following color mappings provide the same level of contrast and functionality, so choose a color mapping based on visual preference.
-- Deprecated color styles
+- Baseline color styles
 - Extended FABs should no longer use surface color styles. They're still available, but not recommended.
 - States are visual representations used to communicate the status of a component or interactive element. Learn more about interaction states
 - When using a non-default color mapping for extended FABs, make sure the state layer color is the same as the icon color. For example, the state layer color for primary mapping should be md.sys.color.primary.
-- Deprecated extended FAB
-- Use the table's menu to select a token set. The deprecated extended FAB token sets are common tokens and surface color styles. Other color styles like primary, secondary, and tertiary are not deprecated as they're still used by the latest extended FABs.
-- Deprecated colors Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. Learn more about design tokens
+- Baseline extended FAB
+- Use the table's menu to select a token set. The baseline extended FAB token sets are organized by common tokens, then by surface and branded color styles. Other color styles like primary, secondary, and tertiary are still used by the latest extended FABs.
+- Baseline colors Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. Learn more about design tokens
 - Additional color mappings Extended FABs can use other combinations of container and icon colors. The color mappings below provide the same legibility and functionality as the default, so the color mapping you use depends on style alone.
-- Deprecated states States are visual representations used to communicate the status of a component or interactive element. Learn more about interaction states .
+- Baseline states States are visual representations used to communicate the status of a component or interactive element. Learn more about interaction states
 - Attribute Value Container height 56dp Container width Dynamic, 80dp min Container shape 16dp corner radius Icon size 24dp Padding 16dp
 - Use an extended FAB on screens with long, scrolling views that require persistent access to an action, such as a checkout screen. Use it when label text helps understand the main action, or to add further emphasis to the button.
 - Additional emphasis The extended FAB can provide more emphasis and clarity to a product's primary action. Since it has room for both a text label and icon, the extended FAB can be effective where an icon alone is ambiguous. However, the relationship between an extended FAB's icon and label should be clear.
 - Like the regular FAB, only one extended FAB should be used per screen. Multiple FABs compete for attention. If additional high-level actions are required, consider adding more buttons elsewhere on the page.
 - The extended FAB shouldn't be used as an option in a set of actions. Instead, use filled buttons for a similar level of emphasis.
-- Choosing a size There are three types of extended FABs: small, medium, and large. Choose an appropriately-sized extended FAB to add the right amount of emphasis for an action. In compact windows with one prominent action, the large extended FAB can be appropriate. In larger window sizes, use a medium or large extended FAB.
+- Choosing a size There are three variants of extended FABs: small, medium, and large. Choose an appropriately-sized extended FAB to add the right amount of emphasis for an action. In compact windows with one prominent action, the large extended FAB can be appropriate. In larger window sizes, use a medium or large extended FAB.
 - Container The extended FAB container is a rounded rectangle that hugs its contents. The extended FAB grows and shrinks with text length.
 - Icon (optional) An extended FAB's icon should intuitively represent its action.
 - Label text The extended FAB's label should clearly describe its action. Use 1-2 words at most. Keep in mind that localization may increase the amount of characters and width of the extended FAB.

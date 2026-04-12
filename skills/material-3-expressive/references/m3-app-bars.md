@@ -2,17 +2,17 @@
 
 Source URL:
 https://m3.material.io/components/app-bars/overview
-Generated: 2026-02-10
+Generated: 2026-04-06
 
 Extracted guidance
 - Focus on describing the current page and provide 1-2 essential actions
 - Displays labels and page navigation controls at the top of the page. (Use a toolbar to display page actions)
-- Four types: Search app bar, small, medium flexible, large flexible
+- Four variants: Search app bar, small, medium flexible, large flexible
 - On scroll, apply a fill color to separate from body content
 - Can animate on and off screen with another bar of controls, like a row of chips
 - Renamed component from top app bar to app bar
 - Added search app bar
-- Deprecating medium and large app bars
+- M edium and large app bars are no longer recommended
 - Added medium flexible and large flexible app bars with: Reduced overall height
 - Larger title text
 - Left- and center-aligned text options
@@ -24,9 +24,9 @@ Extracted guidance
 - On scroll: No drop shadow, instead a color fill creates separation from content
 - Typography: Larger default text
 - Layout: Smaller default height
-- Deprecated types The medium and large app bars are being deprecated in the expressive update, and should be replaced with the medium flexible and large flexible app bars. The flexible app bars have flexible heights, multi-line support, and can contain a wider variety of elements, like images. View deprecated app bar specs
-- Type Original M3 M3 Expressive Search app bar -- Available Small Available Available Center-aligned Available Merged into small . Use centered-text configuration. Medium Available Deprecated Use medium flexible Medium flexible -- Available Large Available Deprecated Use large flexible Large flexible -- Available
-- Category Configuration Original M3 M3 Expressive Text alignment Leading edge (default) Available Available Centered -- Available
+- Baseline variants The baseline M3 medium and large app bars are no longer recommended in M3 Expressive, and should be replaced with medium flexible and large flexible app bars, which are similar visually, but have multi-line support, a shorter height, and can contain a wide variety of elements, like images. Jump to baseline app bar specs
+- Variant M3 M3 Expressive Search app bar -- Available Small Available Available Center-aligned Available Merged into small . Use centered-text configuration. Medium (baseline) Available Not recommended. Use medium flexible Medium flexible -- Available Large (baseline) Available Not recommended. Use large flexible Large flexible -- Available
+- Category Configuration M3 M3 Expressive Text alignment Leading edge (default) Available Available Centered -- Available
 - An image or logo
 - A filled icon button
 - The search app bar can include trailing actions inside and outside the search bar. When the search bar is selected, it should open the search view component.
@@ -37,9 +37,9 @@ Extracted guidance
 - Small app bar
 - Medium flexible app bar
 - Large flexible app bar
-- Deprecated app bars
-- The medium and large app bars are deprecated in the expressive update. Use the medium flexible and large flexible app bars in their place.
-- Select a token set to view in the table's menu. Deprecated app bar token sets are organized into a medium, large, and older deprecated token sets. Learn about design tokens
+- Baseline app bars
+- The medium and large app bars are no longer recommended in M3 Expressive. Use the medium flexible and large flexible app bars in their place.
+- Select a token set to view in the table's menu. Baseline app bar token sets are organized into medium, large, and older baseline token sets. Learn about design tokens
 - Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value. Learn more about design tokens
 - Medium app bar
 - Large app bar
@@ -58,6 +58,7 @@ Extracted guidance
 - Buttons in search app bar In addition to a trailing avatar, search app bars can have up to two trailing icons on mobile. Trailing icons can be placed inside or outside the search bar.
 - The leading element of a search app bar can be used for a product's logo to brand the app's overall experience. This logo can be purely cosmetic, or can trigger an action like returning to the home screen or refreshing it. Avoid using a logo to open an expanded navigation rail.
 - Don't use more than two trailing icon buttons with an avatar. If more actions are needed, place them in a toolbar instead.
+- Large screens The search app bar dynamically adapts to available width. There should be up to four trailing icons on larger screens.
 - Alternate color options By default, search containers in app bars use the surface container color to distinguish it from the app background. If the background is darker, use a lighter container color on the search bar, like surface bright . When choosing alternate colors, make sure the search text and container have at least 3:1 contrast for readability.
 - Container The app bar container holds all information and actions at the top of a screen, including navigation icons, headlines, and buttons. Avoid changing the position or shape of the container.
 - Always use the default height of the app bar, and make it span the full width of the window.
@@ -66,7 +67,7 @@ Extracted guidance
 - A back arrow, which returns to the previous screen
 - The current page
 - The current section
-- Headlines can be aligned to the leading edge or centered. The headline's typography size and style change depending on the type of app bar.
+- Headlines can be aligned to the leading edge or centered. The headline's typography size and style change depending on the app bar variant.
 - Subtitle Subtitles can add additional context to a page. These can be leading-aligned or center-aligned with the headline text.
 - Trailing icon buttons Up to two icon buttons can be placed after the headline, aligned to the trailing edge of the app bar. Place most-used actions closest to the leading edge. Avoid using these buttons to open a menu with more actions. If more actions are needed, place them in a toolbar instead. If changing the icon button color style to filled or tonal, only use one icon button.
 - Use filled icons when possible for the best visibility. Outlined icons can also be used, particularly for unselected toggle buttons.
@@ -91,7 +92,7 @@ Extracted guidance
 - Spatial panel alignment By default, app bar orbiters are center-aligned to the spatial panel. Their width and placement can be adjusted to accommodate specific user needs, such as improved ergonomics or right-to-left (RTL) languages.
 - Width boundaries An app bar orbiter's width should adjust to stay in a person's field of view . This makes crucial navigation elements easy to find.
 - It's not recommended to increase the width of an app bar orbiter beyond a person's natural field of view . This creates a visual imbalance and makes it difficult to find navigation elements.
-- Adaptable width When placed in local context, an app bar orbiter can expand to the width of its adjacent spatial panel. Be sure the orbiter stays in a person's field of view, and test for usability.
+- Adaptable width When placed in a local context, an app bar orbiter can expand to the width of its adjacent spatial panel. Be sure the orbiter stays in a person's field of view, and test for usability.
 - XR accessibility guidelines are still evolving. XR app bars should follow applicable Material app bar accessibility standards .
 - Understand what page they're currently visiting
 - Take actions or navigate to a new page destination

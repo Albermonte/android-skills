@@ -2,11 +2,11 @@
 
 Source URL:
 https://m3.material.io/components/carousel/overview
-Generated: 2026-02-10
+Generated: 2026-04-06
 
 Extracted guidance
 - Contain visual items like images or video, along with optional label text
-- Four layouts: Multi-browse, uncontained, hero, and full-screen
+- Six layouts: Multi-browse, uncontained, uncontained multi-aspect ratio, hero, center-aligned hero and full-screen
 - Layouts can be start-aligned or center-aligned
 - Item visuals have a parallax effect when scrolled
 - Items change size as they move through the carousel
@@ -14,14 +14,15 @@ Extracted guidance
 - Hero carousel layout
 - Differences from M2
 - This component is new in Material 3. Shape : Dynamic carousel items change shape when scrolled Motion : Carousel items move at a different speed than their content, creating a parallax effect Interaction : When scrolled, carousel items snap into place to maintain the same layout. Hero carousels swipe through one item at a time. Multi-browse carousels scroll through many items at once.
+- Participants thought carousels were a good way to explore many different kinds of content
 - A previewed or squished item strongly indicated that there was more content to swipe through
 - Participants expected around 10 items in a carousel that scrolled multiple items at once
 - While some contexts were considered better for some carousel designs, all designs were considered similarly usable
-- Select a component type below to see its elements, attributes, tokens, and their values.
+- Browse the component elements, attributes, tokens, and their values.
 - Color Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. Learn more about design tokens
 - States States are visual representations used to communicate the status of a component or interactive element. Learn more about interaction states
 - Carousel item dynamic widths
-- All types of carousel items dynamically adapt to the width of the container. Large items have a customizable maximum width that's used to optimally fit carousel items into the available space. Small carousel items have a minimum width of 40dp and a maximum width of 56dp. Items change size as they move through the carousel layout.
+- All kinds of carousel items dynamically adapt to the width of the container. Large items have a customizable maximum width that's used to optimally fit carousel items into the available space. Small carousel items have a minimum width of 40dp and a maximum width of 56dp. Items change size as they move through the carousel layout.
 - Multi-browse The multi-browse layout shows at least one large, medium, and small carousel item.
 - Attribute Value Alignment Vertically centered Leading/trailing padding 16dp Top/bottom padding 8dp Padding between elements 8dp Large item width Dynamic, or user-set Medium item width Dynamic Small item width 40-56dp, dynamic Item corner radius 28dp
 - Uncontained The uncontained layout shows items that scroll to the edge of the container.
@@ -41,7 +42,7 @@ Extracted guidance
 - Multi-browse The multi-browse layout is best for browsing many items at once, like photos or event feeds. Snap-scrolling is recommended to ensure items are recognizable and consistently sized. On larger screens, more large and medium items are visible in this layout. Avoid using this layout if the carousel items need lots of text or have complicated imagery.
 - In compact windows, only show up to three carousel items if they have text. If you need to show more than three items, make sure the images and content are easy to understand and recognize.
 - Uncontained The uncontained layout is most similar to a traditional carousel, where items are a single size and flow past the edge of the screen. Both default scrolling and snap-scrolling work well with this layout. Since items don't change size, this layout can be customized to show more text or other UI above or below each item without the text being masked or cropped.
-- Uncontained multi-aspect ratio The uncontained multi-aspect ratio carousel has the same layout as the uncontained carousel but contains items of various sizes.Item widths can range anywhere between 9:16 for min width size to 16:9 for max width. Only use this carousel variant if the items have various widths.
+- Uncontained multi-aspect ratio The uncontained multi-aspect ratio carousel has the same layout as the uncontained carousel but contains items of various sizes. Item widths can range anywhere between 9:16 for min width size to 16:9 for max width. Only use this carousel layout if the items have various widths.
 - Hero The hero layout is best for spotlighting content that needs more attention, like movie, shows, or other media thumbnails. It highlights one large image to focus on, while providing a sneak peek of what's next. On larger screens, more large items are visible. Use snap-scrolling so users can easily cycle through items one at a time.
 - Center-aligned hero When the hero layout is center-aligned, it adds an additional previewed item on the leading edge, making the large carousel item centered.
 - Full-screen The full-screen layout is best used for immersive experiences like video articles, featured headlines, or items that are visually rich. It can contain text and other UI elements on top of the image. This layout works best with content that is taller than it is wide, and scrolls vertically. It only works in portrait orientation in compact and medium windows. Don't use this layout in landscape orientation. Use snap-scrolling for full-screen layouts. Don't use default scrolling.

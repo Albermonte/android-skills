@@ -3,7 +3,7 @@
 Source URLs:
 - https://m3.material.io/components/bottom-sheets/overview
 - https://m3.material.io/components/side-sheets/overview
-Generated: 2026-02-10
+Generated: 2026-04-06
 
 Extracted guidance
 - Use bottom sheets in compact and medium window sizes

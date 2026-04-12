@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/loading-indicator/overview
-Generated: 2026-02-10
+Generated: 2026-04-06
 
 Extracted guidance
 - Recommended as a replacement for indeterminate circular progress indicators
@@ -14,8 +14,8 @@ Extracted guidance
 - Can be contained or uncontained
 - Use shape and motion to capture attention
 - Can scale in size
-- Type Original M3 M3 Expressive Loading indicator -- Available
-- Category Configuration Original M3 M3 Expressive Containment Default -- Available Contained -- Available
+- Variant M3 M3 Expressive Loading indicator -- Available
+- Category Configuration M3 M3 Expressive Containment Default -- Available Contained -- Available
 - Loading indicators have a single token set.
 - Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens; in implementation, a color value will be a token that references a value.
 - Loading indicators use animation to grab attention, mitigate perceived latency, and indicate that an activity is in progress. They should be used when progress isn't detectable, or when it's not necessary to indicate how long an activity will take. While similar in function to circular progress indicators, loading indicators are a better alternative for short processes between 200ms and 5s.

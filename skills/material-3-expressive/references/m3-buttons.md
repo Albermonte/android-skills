@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/buttons/overview
-Generated: 2026-02-10
+Generated: 2026-04-06
 
 Extracted guidance
 - Two variants: default and toggle
@@ -12,27 +12,27 @@ Extracted guidance
 - Two shape options: round and square
 - Keep labels concise and use sentence case
 - Default and toggle (selection)
-- Color styles are now configurations. (elevated, filled, tonal, outlined, text)
+- Color styles are now configurations (elevated, filled, tonal, outlined, text)
 - Round and square
 - Shape morphs when pressed
 - Shape morphs when selected
 - Small (existing, default)
 - 16dp (recommended to match padding of new sizes)
-- 24dp (not recommended)
+- 24dp (no longer recommended)
 - Differences from M2
 - Color: New color mappings and compatibility with dynamic color. Icons and labels now share the same color. Neutral text button is no longer recommended.
 - Icons: Standard size for leading and trailing icons is now 20dp
 - Shape: Fully-rounded corner radius and additional height options
-- Variants M3 M3 Expressive Default Available Available Toggle (selection) -- Available
-- Category Configuration M3 M3 Expressive Size Small (default) Available Available XS, M, L, XL -- Available Shape Round (default) Available Available Square -- Available Color Elevated, filled (default), tonal, outlined, standard Available Available Small button padding 24dp Available Not recommended. Use 16dp 16dp -- Available
+- Variant M3 M3 Expressive Default Available Available Toggle (selection) -- Available
+- Category Configuration M3 M3 Expressive Size Small (default) Available Available XS, M, L, XL -- Available Shape Round (default) Available Available Square -- Available Color Elevated, filled (default), tonal, outlined, text Available Available Small button padding 24dp Available Not recommended. Use 16dp 16dp -- Available
 - There are five built-in button color styles: elevated, filled, tonal, outlined, and text
 - The default and toggle buttons use different colors
 - Toggle buttons don't use the text style
 - star Note: These color roles were chosen to create design coherence and familiarity. Other color roles can be used as long as the container and text have a 3:1 contrast ratio. For example, tertiary and on tertiary.
-- Default Toggle unselected Toggle selected Elevated container Elevated icon & label Surface container low Primary Surface container low Primary Primary On primary Filled container Filled icon & label Primary On primary Surface container On surface variant Primary On primary Tonal container Tonal icon & label Secondary container On secondary container Secondary container On secondary container Secondary On secondary Outline container Outlined icon & label Outline variant (outline) On surface variant Outline variant (outline) On surface variant Inverse surface Inverse on surface Text icon & label Primary -- --
+- 1. Default 2. Toggle unselected 3. Toggle selected Elevated container Elevated icon & label Surface container low Primary Surface container low Primary Primary On primary Filled container Filled icon & label Primary On primary Surface container On surface variant Primary On primary Tonal container Tonal icon & label Secondary container On secondary container Secondary container On secondary container Secondary On secondary Outlined container Outlined icon & label Outline variant (outline) On surface variant Outline variant (outline) On surface variant Inverse surface Inverse on surface Text icon & label Primary -- --
 - High contrast mode is an accessibility feature that aims to maximize legibility by using a limited color palette, like black and white. Focus rings are shown when buttons are focused.
 - States are visual representations used to communicate the status of a component or interactive element.
-- Elevated button states The elevated button style has an elevation of 1 by default and has no elevation when disabled.
+- Elevated button states The elevated button style has an elevation of 1 by default and 0 when disabled.
 - Filled button states
 - Tonal button states
 - Outlined button states
@@ -50,7 +50,7 @@ Extracted guidance
 - Label text Label text is the most important element of a button. It describes the action that will occur if someone taps a button. It should be very brief, ideally 1-3 words. Use sentence case, which only capitalizes the first word and proper nouns. This allows the text to distinguish proper nouns, for example: Book with Flights , not BOOK WITH FLIGHTS . Don't truncate or wrap label text. It should always be fully visible on a single line.
 - Buttons with the outlined and text color style depend on the colors to be recognizable from other text and elements. Use caution when putting these buttons next to visually similar elements, such as chips or large text.
 - Container Button containers hold the label text and optional icon. Buttons with the text color style have a visible container only when hovered, focused, or pressed. Buttons with a round shape have containers with fully rounded corners.
-- Square buttons have containers with more subtle rounding that changes based on button size.
+- Buttons with a square shape have containers with more subtle rounding that changes based on button size.
 - Icon (optional) Icons visually communicate the button's action and help draw attention. They should be placed on the leading side of the button, before the label text.
 - The elevated button style is the same as the tonal button, but with a shadow. To avoid overusing shadows, use the elevated style only when absolutely necessary, such as when the button requires visual separation from a visually prominent background.
 - Buttons at higher elevations typically have more emphasis in a design, and should be used sparingly. For high emphasis, consider the filled style instead.
@@ -72,5 +72,6 @@ Extracted guidance
 - Interaction & style
 - Color contrast Enabled buttons need a 3:1 contrast ratio with the background to meet accessibility best practices. This is measured from the container for elevated, filled, and tonal button styles, and the label text for outlined and text button styles.
 - 200% text size Avoid excessive text wrapping or truncation by choosing concise strings. On Android, button labels should be kept concise enough to fit within two lines after the text size is increased to 200%. If a button label exceeds this limit and gets truncated, provide an alternative way to access the full content in a single tap.
+- Rapid clicks On the web, you can use a modified motion curve to avoid resonant effects from overlapping animations. This provides a smoother experience for interactions where you anticipate multiple clicks or taps in succession.
 - Keys Actions Tab Navigate to a button Space or Enter Activate a button
 - The accessibility label for a button should match the visible label text on the button such as Done , Send , or Reply . It can contain extra contextual information if necessary.
