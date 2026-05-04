@@ -270,7 +270,7 @@ Token group index
 - md.comp.search-bar.trailing-space: 16dp
 
 ## md.comp.search-view.contained
-- md.comp.search-view.contained.background.color: (unresolved)
+- md.comp.search-view.contained.background.color: #F8FAFD
 - md.comp.search-view.contained.docked.bar-results.gap: 2dp
 - md.comp.search-view.contained.docked.bar.shape: SHAPE_FAMILY_CIRCULAR
 - md.comp.search-view.contained.docked.results.shape: SHAPE_FAMILY_ROUNDED_CORNERS
