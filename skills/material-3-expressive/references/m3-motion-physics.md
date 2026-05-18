@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/styles/motion/overview/how-it-works
-Generated: 2026-05-05
+Generated: 2026-05-18
 
 Extracted guidance
 - The basics: Motion schemes The physics system has two preset motion schemes: expressive and standard . The motion scheme you choose defines how your product feels. While most motion in a product should use the same scheme, products can make advanced customizations to swap the scheme to emphasize key moments.
