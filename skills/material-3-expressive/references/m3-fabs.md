@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/floating-action-button/overview
-Generated: 2026-05-05
+Generated: 2026-05-25
 
 Extracted guidance
 - Use a FAB for the most common or important action on a screen
@@ -29,7 +29,7 @@ Extracted guidance
 - Baseline color styles
 - Surface FAB color styles are still available, but no longer recommended.
 - States States are visual representations used to communicate the status of a component or interactive element. When using a non-default color mapping for FABs, make sure the state layer color is the same as the icon color. For example, the state layer color for the primary color style should be md.sys.color.primary .
-- Use the table's menu to select a token set. This only includes baseline tokens, including small and surface FABs. It doesn't include large or regular FABs, since those are still currently used.
+- Use the table's menu to select a token set. This only includes tokens for small and surface FABs, which are both no longer recommended. It doesn't include other colors, or large or regular FABs, since those are still currently used.
 - Use a FAB for the most important action on a screen; it appears in front of all other content. The FAB can be aligned left, center, or right. It can be positioned above the navigation bar, or nested within it.
 - Medium FAB (most recommended)
 - The FAB is the smallest size, and is best used in compact windows where other actions may be present on screen. The medium FAB is recommended for most situations, and works best in compact and medium windows. Use it for important actions without taking up too much space. A large FAB is useful in any window size when the layout calls for a clear and prominent primary action, but is best suited for expanded and larger window sizes, where its size helps draw attention.

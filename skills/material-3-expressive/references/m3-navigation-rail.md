@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/navigation-rail/overview
-Generated: 2026-05-05
+Generated: 2026-05-25
 
 Extracted guidance
 - Use navigation rails in medium, expanded, large, or extra-large window sizes Can contain 3-7 destinations plus an optional FAB Always put the rail in the same place, even on different screens of an app
@@ -89,4 +89,4 @@ Extracted guidance
 - Initial focus Initial focus lands directly on the first interactive item, whether it's the menu, the FAB, or the first navigation item. From the FAB or menu, Tab brings the person to the navigation items. Tab or Arrows then navigate between items.
 - Visual indicators Icons give the dominant cue of the navigation state. Use a filled icon for the selected destination to contrast with outlined icons for the non-selected destinations.
 - Keyboard navigation Keys Actions Tab / Arrows Navigate between interactive elements Space / Enter Selects an interactive element
-- Labeling elements The accessibility label for a navigation item is typically the same as the adjacent text label. When the visible UI text is ambiguous, accessibility labels need to be more descriptive. For example, a navigation item visibly labeled Recent would benefit from additional information in its accessibility label to clarify the destination's intent. Note: On MDC-Android , a more descriptive accessibility label is not available and the role is not announced.
+- Labeling elements The accessibility label for a navigation item is typically the same as the adjacent text label. When the visible UI text is ambiguous, accessibility labels need to be more descriptive. For example, a navigation item visibly labeled Recent would benefit from additional information in its accessibility label to clarify the destination's intent. Note: On Android Views (MDC-Android), a more descriptive accessibility label is not available and the role is not announced.

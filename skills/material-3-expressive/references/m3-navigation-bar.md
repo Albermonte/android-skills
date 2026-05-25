@@ -2,10 +2,12 @@
 
 Source URL:
 https://m3.material.io/components/navigation-bar/overview
-Generated: 2026-05-05
+Generated: 2026-05-25
 
 Extracted guidance
-- Use navigation bars in compact or medium window sizes Can contain 3-5 destinations of equal importance Destinations don't change. They should be consistent across app screens.
+- Use navigation bars in compact or medium window sizes
+- Can contain 3-5 destinations of equal importance
+- Destinations don't change. They should be consistent across app screens.
 - Baseline navigation bar is no longer recommended
 - Added flexible navigation bar Shorter height
 - Can be used in medium window sizes with horizontal navigation items
@@ -82,4 +84,4 @@ Extracted guidance
 - Use a filled icon with a bold label for selected destinations. For unselected destinations use an outlined icon with a medium label. If an icon doesn't have a filled style, use a thicker or heavier version of the icon instead.
 - Keyboard navigation Keys Actions Tab Move between navigation items Space / Enter Selects the focused navigation item
 - The accessibility label for a navigation item is typically the same as the destination name.
-- When the visible UI text is ambiguous, accessibility labels need to be more descriptive. For example, a navigation destination visibly labeled Library would benefit from additional information in its accessibility label to clarify the destination's intent. Note: On MDC-Android, a more descriptive accessibility label is not available and the role is not announced.
+- When the visible UI text is ambiguous, accessibility labels need to be more descriptive. For example, a navigation destination visibly labeled Library would benefit from additional information in its accessibility label to clarify the destination's intent. Note: On Android Views (MDC-Android), a more descriptive accessibility label is not available and the role is not announced.
