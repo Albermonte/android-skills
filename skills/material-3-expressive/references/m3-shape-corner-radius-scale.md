@@ -2,14 +2,14 @@
 
 Source URL:
 https://m3.material.io/styles/shape/corner-radius-scale
-Generated: 2026-05-05
+Generated: 2026-05-25
 
 Extracted guidance
 - Use abstract shapes thoughtfully to add emphasis and decorative flair
 - Leverage Material shapes for built-in shape morphing
 - Rectangular shapes are fully rounded in all corners by default
 - Individual corners can be adjusted to create asymmetrical rectangular shapes
-- Type Resource Status Design Shape library (Figma Design Kit) Available Implementation Jetpack Compose (Shape Library) Available MDC-Android Available
+- Type Resource Status Design Shape library (Figma Design Kit) Available Implementation Jetpack Compose (Shape Library) Available Android Views (MDC-Android) Available
 - Large increased (20dp)
 - Extra large increased (32dp)
 - Extra extra large (48dp)

@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/toolbars/overview
-Generated: 2026-05-05
+Generated: 2026-05-25
 
 Extracted guidance
 - Two expressive variants: docked toolbar and floating toolbar

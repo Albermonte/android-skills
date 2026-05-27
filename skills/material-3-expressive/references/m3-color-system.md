@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/styles/color/system/overview
-Generated: 2026-05-05
+Generated: 2026-05-25
 
 Extracted guidance
 - Built-in set of accessible color relationships
@@ -12,7 +12,7 @@ Extracted guidance
 - Dynamic color features including user-generated and content-based color
 - For products migrating from M2 to M3, start by mapping the baseline color scheme to your existing product. It can easily switch to dynamic color when ready.
 - Automatic dark theme
-- Resources Type Link Status Design Design Kit (Figma) Available Implementation MDC-Android Available Jetpack Compose Available Flutter Available Tools Material Theme Builder Available
+- Resources Type Link Status Design Design Kit (Figma) Available Implementation Android Views (MDC-Android) Available Jetpack Compose Available Flutter Available Tools Material Theme Builder Available
 - May 2025 Three levels of contrast Color roles support three levels of contrast so people can select the one that best suits their vision needs. Contrasts also are tokenized.
 - On primary container
 - On secondary container
