@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/app-bars/overview
-Generated: 2026-05-25
+Generated: 2026-06-01
 
 Extracted guidance
 - Focus on describing the current page and provide 1-2 essential actions
