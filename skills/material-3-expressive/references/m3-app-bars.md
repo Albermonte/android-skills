@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/app-bars/overview
-Generated: 2026-05-25
+Generated: 2026-06-08
 
 Extracted guidance
 - Focus on describing the current page and provide 1-2 essential actions
@@ -12,7 +12,7 @@ Extracted guidance
 - Can animate on and off screen with another bar of controls, like a row of chips
 - Renamed component from top app bar to app bar
 - Added search app bar
-- M edium and large app bars are no longer recommended
+- Medium and large app bars are no longer recommended
 - Added medium flexible and large flexible app bars with: Reduced overall height
 - Larger title text
 - Left- and center-aligned text options

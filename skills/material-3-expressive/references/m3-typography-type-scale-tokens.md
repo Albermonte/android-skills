@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/styles/typography/type-scale-tokens
-Generated: 2026-05-25
+Generated: 2026-06-08
 
 Extracted guidance
 - Use variable fonts for more control over expression in editorial treatments
@@ -10,6 +10,7 @@ Extracted guidance
 - This shows where the type scale is available and implemented into Material components.
 - Type Link Status Design Design Kit Available Google Fonts Available Implementation Flutter Available Jetpack Compose Available Jetpack Compose: Expressive Available Android Views (MDC-Android) Available Android Views (MDC-Android): Expressive Available Web Available Web: Expressive Unavailable
 - Emphasized type style tokens Design tokens offer an improved way to define typography in products by assigning an element's type style by a configurable value, rather than a set value. Emphasized tokens allow for clearer hierarchies and prioritized components within a layout. Type roles describe size-such as small, medium, and large-enabling them to adapt and respond to the device or context.
+- Google Design: Making Google Sans Flex Learn how seven design problems shaped Google's iconic typeface - from inception to going open-source. Read the article on design.google
 - Variable fonts Roboto Flex, Roboto Serif, & Roboto Mono Updated considerations for using variable fonts and different combinations of their customizable axes, including grade, width, weight, slant, and optical size.
 - Style roles Type styles are defined by five roles: display, headline, title, body, and label. These names are more descriptive, allowing for easier matching of type style to use case.
 - Static fonts like Roboto are currently applied by default to all Material 3 components. Variable fonts like Roboto Flex have many more axes for expression, but aren't yet part of the M3 typescale.

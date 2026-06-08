@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/icon-buttons/overview
-Generated: 2026-05-25
+Generated: 2026-06-08
 
 Extracted guidance
 - Icon buttons must use a system icon with a clear meaning
@@ -34,7 +34,7 @@ Extracted guidance
 - Target sizes Extra small and small icon buttons must have a target size of 48x48dp or larger to be accessible.
 - Button corner radius
 - XS S M L XL A. Round button Full Full Full Full Full B. Square button 12dp 12dp 16dp 28dp 28dp C. Pressed state 8dp 8dp 12dp 16dp 16dp
-- Use the table's menu to select a token set. Filled, tonal, and outlined icon button tokens are no longer recommended. Standard tokens are still available in the module at the top of the page.
+- Use the table's menu to select a token set. Filled, tonal, and outlined icon button tokens are now deprecated in favor of the new token sets. All other tokens are still available in the module at the top of the page.
 - Default icon buttons can open other elements, such as a menu or search.
 - Toggle icon buttons can represent binary actions that can be toggled on and off, such as favorite or bookmark .
 - Color There are four icon button color styles, in order of emphasis: Filled Tonal Outlined Standard For the highest emphasis, use the filled style. For the lowest emphasis, use standard.
