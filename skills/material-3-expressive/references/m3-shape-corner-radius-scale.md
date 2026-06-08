@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/styles/shape/corner-radius-scale
-Generated: 2026-05-25
+Generated: 2026-06-08
 
 Extracted guidance
 - Use abstract shapes thoughtfully to add emphasis and decorative flair

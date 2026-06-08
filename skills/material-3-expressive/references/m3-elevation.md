@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/styles/elevation/overview
-Generated: 2026-05-25
+Generated: 2026-06-08
 
 Extracted guidance
 - Elevation is applied to all surfaces and components

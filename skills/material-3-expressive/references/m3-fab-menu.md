@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/fab-menu/overview
-Generated: 2026-05-25
+Generated: 2026-06-08
 
 Extracted guidance
 - One FAB menu size for all sizes of FABs
@@ -26,7 +26,7 @@ Extracted guidance
 - A FAB menu opens from a FAB to show multiple related actions. It should always appear in the same place as the FAB that opened it. This makes actions immediately accessible, and keeps the UI clean by concealing actions when they're not needed. Don't open a FAB menu from an extended FAB or any other component.
 - The FAB menu should be aligned to the trailing edge of the window. In right-to-left (RTL) languages, this means the FAB and FAB menu should be aligned to the left edge, and the layout of elements should be mirrored.
 - FAB menus can contain 2-6 items. These should be closely related under a single action, like Share . Avoid grouping unrelated actions in the same FAB menu.
-- When a FAB is paired with other components, like the floating toolbar or navigation rail, don't use the FAB menu.
+- When a FAB is paired with other components, like the floating toolbar or navigation rail, don't use the FAB menu. This prevents cognitive overload and interface clutter.
 - Color sets FAB menus have three color sets: primary, secondary, and tertiary. Use the color set that best matches the FAB color style. Use the primary FAB menu color set with the primary or primary container FAB color styles.
 - Use the secondary FAB menu color set with the secondary or secondary container FAB color styles.
 - Use the tertiary FAB menu color set with the tertiary or tertiary container FAB color styles.
