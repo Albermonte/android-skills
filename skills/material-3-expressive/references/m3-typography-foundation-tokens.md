@@ -1,7 +1,7 @@
 # Typography Foundation Tokens (M3 Expressive)
 
 Source URL:
-https://m3.material.io/_dsm/data/dsdb-m3/2026-06-03_21-10-02/TYPOGRAPHY.20543ce18892f7d9.json
+https://m3.material.io/_dsm/data/dsdb-m3/2026-06-10_13-00-05/TYPOGRAPHY.20543ce18892f7d9.json
 
 Extracted design tokens
 

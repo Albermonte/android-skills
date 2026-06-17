@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/styles/typography/type-scale-tokens
-Generated: 2026-06-08
+Generated: 2026-06-15
 
 Extracted guidance
 - Use variable fonts for more control over expression in editorial treatments
