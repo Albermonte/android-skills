@@ -1,16 +1,19 @@
 # Typography Foundation Tokens (M3 Expressive)
 
 Source URL:
-https://m3.material.io/_dsm/data/dsdb-m3/2026-06-10_13-00-05/TYPOGRAPHY.20543ce18892f7d9.json
+https://m3.material.io/_dsm/data/dsdb-m3/2026-06-24_09-00-10/TYPOGRAPHY.20543ce18892f7d9.json
 
 Extracted design tokens
 
 Token group index
 - md.ref.typeface.brand
+- md.ref.typeface.emphasized
 - md.ref.typeface.plain
+- md.ref.typeface.variable
 - md.ref.typeface.weight-bold
 - md.ref.typeface.weight-medium
 - md.ref.typeface.weight-regular
+- md.ref.typeface.weight-semibold
 - md.sys.typescale.body-large
 - md.sys.typescale.body-medium
 - md.sys.typescale.body-small
@@ -28,12 +31,24 @@ Token group index
 - md.sys.typescale.title-large
 - md.sys.typescale.title-medium
 - md.sys.typescale.title-small
+- md.sys.typescale.variable
 
 ## md.ref.typeface.brand
 - md.ref.typeface.brand: Google Sans
 
+## md.ref.typeface.emphasized
+- md.ref.typeface.emphasized.rond: ROND=100
+
 ## md.ref.typeface.plain
 - md.ref.typeface.plain: Google Sans Text
+
+## md.ref.typeface.variable
+- md.ref.typeface.variable.brand: Google Sans Flex
+- md.ref.typeface.variable.plain: Google Sans Flex
+- md.ref.typeface.variable.wght-bold: wght=700
+- md.ref.typeface.variable.wght-medium: wght=500
+- md.ref.typeface.variable.wght-regular: wght=400
+- md.ref.typeface.variable.wght-semibold: wght=600
 
 ## md.ref.typeface.weight-bold
 - md.ref.typeface.weight-bold: 700
@@ -43,6 +58,9 @@ Token group index
 
 ## md.ref.typeface.weight-regular
 - md.ref.typeface.weight-regular: 400
+
+## md.ref.typeface.weight-semibold
+- md.ref.typeface.weight-semibold: 600
 
 ## md.sys.typescale.body-large
 - md.sys.typescale.body-large: type(font=Google Sans Text, weight=400, size=16pt, tracking=0pt, lineHeight=24pt)
@@ -530,3 +548,395 @@ Token group index
 - md.sys.typescale.title-small.wdth: wdth=100
 - md.sys.typescale.title-small.weight: 500
 - md.sys.typescale.title-small.wght: wght=500
+
+## md.sys.typescale.variable
+- md.sys.typescale.variable.body-large: type(font=Google Sans Flex, weight=400, size=16pt, tracking=0pt, lineHeight=24pt)
+- md.sys.typescale.variable.body-large.crsv: CRSV=None
+- md.sys.typescale.variable.body-large.font: Google Sans Flex
+- md.sys.typescale.variable.body-large.grad: GRAD=None
+- md.sys.typescale.variable.body-large.line-height: 24pt
+- md.sys.typescale.variable.body-large.opsz: opsz=16
+- md.sys.typescale.variable.body-large.rond: ROND=None
+- md.sys.typescale.variable.body-large.size: 16pt
+- md.sys.typescale.variable.body-large.slnt: slnt=None
+- md.sys.typescale.variable.body-large.tracking: 0pt
+- md.sys.typescale.variable.body-large.wdth: wdth=100
+- md.sys.typescale.variable.body-large.weight: 400
+- md.sys.typescale.variable.body-large.wght: wght=400
+- md.sys.typescale.variable.body-medium: type(font=Google Sans Flex, weight=400, size=14pt, tracking=0pt, lineHeight=20pt)
+- md.sys.typescale.variable.body-medium.crsv: CRSV=None
+- md.sys.typescale.variable.body-medium.font: Google Sans Flex
+- md.sys.typescale.variable.body-medium.grad: GRAD=None
+- md.sys.typescale.variable.body-medium.line-height: 20pt
+- md.sys.typescale.variable.body-medium.opsz: opsz=14
+- md.sys.typescale.variable.body-medium.rond: ROND=None
+- md.sys.typescale.variable.body-medium.size: 14pt
+- md.sys.typescale.variable.body-medium.slnt: slnt=None
+- md.sys.typescale.variable.body-medium.tracking: 0pt
+- md.sys.typescale.variable.body-medium.wdth: wdth=100
+- md.sys.typescale.variable.body-medium.weight: 400
+- md.sys.typescale.variable.body-medium.wght: wght=400
+- md.sys.typescale.variable.body-small: type(font=Google Sans Flex, weight=400, size=12pt, tracking=0pt, lineHeight=16pt)
+- md.sys.typescale.variable.body-small.crsv: CRSV=None
+- md.sys.typescale.variable.body-small.font: Google Sans Flex
+- md.sys.typescale.variable.body-small.grad: GRAD=None
+- md.sys.typescale.variable.body-small.line-height: 16pt
+- md.sys.typescale.variable.body-small.opsz: opsz=12
+- md.sys.typescale.variable.body-small.rond: ROND=None
+- md.sys.typescale.variable.body-small.size: 12pt
+- md.sys.typescale.variable.body-small.slnt: slnt=None
+- md.sys.typescale.variable.body-small.tracking: 0pt
+- md.sys.typescale.variable.body-small.wdth: wdth=100
+- md.sys.typescale.variable.body-small.weight: 400
+- md.sys.typescale.variable.body-small.wght: wght=400
+- md.sys.typescale.variable.display-large: type(font=Google Sans Flex, weight=400, size=57pt, tracking=0pt, lineHeight=64pt)
+- md.sys.typescale.variable.display-large.crsv: CRSV=None
+- md.sys.typescale.variable.display-large.font: Google Sans Flex
+- md.sys.typescale.variable.display-large.grad: GRAD=None
+- md.sys.typescale.variable.display-large.line-height: 64pt
+- md.sys.typescale.variable.display-large.opsz: opsz=57
+- md.sys.typescale.variable.display-large.rond: ROND=None
+- md.sys.typescale.variable.display-large.size: 57pt
+- md.sys.typescale.variable.display-large.slnt: slnt=None
+- md.sys.typescale.variable.display-large.tracking: 0pt
+- md.sys.typescale.variable.display-large.wdth: wdth=100
+- md.sys.typescale.variable.display-large.weight: 400
+- md.sys.typescale.variable.display-large.wght: wght=400
+- md.sys.typescale.variable.display-medium: type(font=Google Sans Flex, weight=400, size=45pt, tracking=0pt, lineHeight=52pt)
+- md.sys.typescale.variable.display-medium.crsv: CRSV=None
+- md.sys.typescale.variable.display-medium.font: Google Sans Flex
+- md.sys.typescale.variable.display-medium.grad: GRAD=None
+- md.sys.typescale.variable.display-medium.line-height: 52pt
+- md.sys.typescale.variable.display-medium.opsz: opsz=45
+- md.sys.typescale.variable.display-medium.rond: ROND=None
+- md.sys.typescale.variable.display-medium.size: 45pt
+- md.sys.typescale.variable.display-medium.slnt: slnt=None
+- md.sys.typescale.variable.display-medium.tracking: 0pt
+- md.sys.typescale.variable.display-medium.wdth: wdth=100
+- md.sys.typescale.variable.display-medium.weight: 400
+- md.sys.typescale.variable.display-medium.wght: wght=400
+- md.sys.typescale.variable.display-small: type(font=Google Sans Flex, weight=400, size=36pt, tracking=0pt, lineHeight=44pt)
+- md.sys.typescale.variable.display-small.crsv: CRSV=None
+- md.sys.typescale.variable.display-small.font: Google Sans Flex
+- md.sys.typescale.variable.display-small.grad: GRAD=None
+- md.sys.typescale.variable.display-small.line-height: 44pt
+- md.sys.typescale.variable.display-small.opsz: opsz=36
+- md.sys.typescale.variable.display-small.rond: ROND=None
+- md.sys.typescale.variable.display-small.size: 36pt
+- md.sys.typescale.variable.display-small.slnt: slnt=None
+- md.sys.typescale.variable.display-small.tracking: 0pt
+- md.sys.typescale.variable.display-small.wdth: wdth=100
+- md.sys.typescale.variable.display-small.weight: 400
+- md.sys.typescale.variable.display-small.wght: wght=400
+- md.sys.typescale.variable.emphasized.body-large: type(font=Google Sans Flex, weight=500, size=16pt, tracking=0pt, lineHeight=24pt)
+- md.sys.typescale.variable.emphasized.body-large.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.body-large.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.body-large.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.body-large.line-height: 24pt
+- md.sys.typescale.variable.emphasized.body-large.opsz: opsz=16
+- md.sys.typescale.variable.emphasized.body-large.rond: ROND=100
+- md.sys.typescale.variable.emphasized.body-large.size: 16pt
+- md.sys.typescale.variable.emphasized.body-large.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.body-large.tracking: 0pt
+- md.sys.typescale.variable.emphasized.body-large.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.body-large.weight: 500
+- md.sys.typescale.variable.emphasized.body-large.wght: wght=500
+- md.sys.typescale.variable.emphasized.body-medium: type(font=Google Sans Flex, weight=500, size=14pt, tracking=0pt, lineHeight=20pt)
+- md.sys.typescale.variable.emphasized.body-medium.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.body-medium.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.body-medium.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.body-medium.line-height: 20pt
+- md.sys.typescale.variable.emphasized.body-medium.opsz: opsz=14
+- md.sys.typescale.variable.emphasized.body-medium.rond: ROND=100
+- md.sys.typescale.variable.emphasized.body-medium.size: 14pt
+- md.sys.typescale.variable.emphasized.body-medium.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.body-medium.tracking: 0pt
+- md.sys.typescale.variable.emphasized.body-medium.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.body-medium.weight: 500
+- md.sys.typescale.variable.emphasized.body-medium.wght: wght=500
+- md.sys.typescale.variable.emphasized.body-small: type(font=Google Sans Flex, weight=500, size=12pt, tracking=0pt, lineHeight=16pt)
+- md.sys.typescale.variable.emphasized.body-small.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.body-small.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.body-small.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.body-small.line-height: 16pt
+- md.sys.typescale.variable.emphasized.body-small.opsz: opsz=12
+- md.sys.typescale.variable.emphasized.body-small.rond: ROND=100
+- md.sys.typescale.variable.emphasized.body-small.size: 12pt
+- md.sys.typescale.variable.emphasized.body-small.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.body-small.tracking: 0pt
+- md.sys.typescale.variable.emphasized.body-small.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.body-small.weight: 500
+- md.sys.typescale.variable.emphasized.body-small.wght: wght=500
+- md.sys.typescale.variable.emphasized.display-large: type(font=Google Sans Flex, weight=500, size=57pt, tracking=0pt, lineHeight=64pt)
+- md.sys.typescale.variable.emphasized.display-large.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.display-large.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.display-large.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.display-large.line-height: 64pt
+- md.sys.typescale.variable.emphasized.display-large.opsz: opsz=57
+- md.sys.typescale.variable.emphasized.display-large.rond: ROND=100
+- md.sys.typescale.variable.emphasized.display-large.size: 57pt
+- md.sys.typescale.variable.emphasized.display-large.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.display-large.tracking: 0pt
+- md.sys.typescale.variable.emphasized.display-large.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.display-large.weight: 500
+- md.sys.typescale.variable.emphasized.display-large.wght: wght=500
+- md.sys.typescale.variable.emphasized.display-medium: type(font=Google Sans Flex, weight=500, size=45pt, tracking=0pt, lineHeight=52pt)
+- md.sys.typescale.variable.emphasized.display-medium.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.display-medium.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.display-medium.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.display-medium.line-height: 52pt
+- md.sys.typescale.variable.emphasized.display-medium.opsz: opsz=45
+- md.sys.typescale.variable.emphasized.display-medium.rond: ROND=100
+- md.sys.typescale.variable.emphasized.display-medium.size: 45pt
+- md.sys.typescale.variable.emphasized.display-medium.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.display-medium.tracking: 0pt
+- md.sys.typescale.variable.emphasized.display-medium.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.display-medium.weight: 500
+- md.sys.typescale.variable.emphasized.display-medium.wght: wght=500
+- md.sys.typescale.variable.emphasized.display-small: type(font=Google Sans Flex, weight=500, size=36pt, tracking=0pt, lineHeight=44pt)
+- md.sys.typescale.variable.emphasized.display-small.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.display-small.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.display-small.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.display-small.line-height: 44pt
+- md.sys.typescale.variable.emphasized.display-small.opsz: opsz=36
+- md.sys.typescale.variable.emphasized.display-small.rond: ROND=100
+- md.sys.typescale.variable.emphasized.display-small.size: 36pt
+- md.sys.typescale.variable.emphasized.display-small.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.display-small.tracking: 0pt
+- md.sys.typescale.variable.emphasized.display-small.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.display-small.weight: 500
+- md.sys.typescale.variable.emphasized.display-small.wght: wght=500
+- md.sys.typescale.variable.emphasized.headline-large: type(font=Google Sans Flex, weight=500, size=32pt, tracking=0pt, lineHeight=40pt)
+- md.sys.typescale.variable.emphasized.headline-large.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.headline-large.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.headline-large.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.headline-large.line-height: 40pt
+- md.sys.typescale.variable.emphasized.headline-large.opsz: opsz=32
+- md.sys.typescale.variable.emphasized.headline-large.rond: ROND=100
+- md.sys.typescale.variable.emphasized.headline-large.size: 32pt
+- md.sys.typescale.variable.emphasized.headline-large.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.headline-large.tracking: 0pt
+- md.sys.typescale.variable.emphasized.headline-large.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.headline-large.weight: 500
+- md.sys.typescale.variable.emphasized.headline-large.wght: wght=500
+- md.sys.typescale.variable.emphasized.headline-medium: type(font=Google Sans Flex, weight=500, size=28pt, tracking=0pt, lineHeight=36pt)
+- md.sys.typescale.variable.emphasized.headline-medium.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.headline-medium.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.headline-medium.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.headline-medium.line-height: 36pt
+- md.sys.typescale.variable.emphasized.headline-medium.opsz: opsz=28
+- md.sys.typescale.variable.emphasized.headline-medium.rond: ROND=100
+- md.sys.typescale.variable.emphasized.headline-medium.size: 28pt
+- md.sys.typescale.variable.emphasized.headline-medium.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.headline-medium.tracking: 0pt
+- md.sys.typescale.variable.emphasized.headline-medium.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.headline-medium.weight: 500
+- md.sys.typescale.variable.emphasized.headline-medium.wght: wght=500
+- md.sys.typescale.variable.emphasized.headline-small: type(font=Google Sans Flex, weight=500, size=24pt, tracking=0pt, lineHeight=32pt)
+- md.sys.typescale.variable.emphasized.headline-small.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.headline-small.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.headline-small.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.headline-small.line-height: 32pt
+- md.sys.typescale.variable.emphasized.headline-small.opsz: opsz=24
+- md.sys.typescale.variable.emphasized.headline-small.rond: ROND=100
+- md.sys.typescale.variable.emphasized.headline-small.size: 24pt
+- md.sys.typescale.variable.emphasized.headline-small.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.headline-small.tracking: 0pt
+- md.sys.typescale.variable.emphasized.headline-small.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.headline-small.weight: 500
+- md.sys.typescale.variable.emphasized.headline-small.wght: wght=500
+- md.sys.typescale.variable.emphasized.label-large: type(font=Google Sans Flex, weight=600, size=14pt, tracking=0pt, lineHeight=20pt)
+- md.sys.typescale.variable.emphasized.label-large.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.label-large.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.label-large.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.label-large.line-height: 20pt
+- md.sys.typescale.variable.emphasized.label-large.opsz: opsz=14
+- md.sys.typescale.variable.emphasized.label-large.rond: ROND=100
+- md.sys.typescale.variable.emphasized.label-large.size: 14pt
+- md.sys.typescale.variable.emphasized.label-large.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.label-large.tracking: 0pt
+- md.sys.typescale.variable.emphasized.label-large.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.label-large.weight: 600
+- md.sys.typescale.variable.emphasized.label-large.wght: wght=600
+- md.sys.typescale.variable.emphasized.label-medium: type(font=Google Sans Flex, weight=600, size=12pt, tracking=0pt, lineHeight=16pt)
+- md.sys.typescale.variable.emphasized.label-medium.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.label-medium.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.label-medium.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.label-medium.line-height: 16pt
+- md.sys.typescale.variable.emphasized.label-medium.opsz: opsz=12
+- md.sys.typescale.variable.emphasized.label-medium.rond: ROND=100
+- md.sys.typescale.variable.emphasized.label-medium.size: 12pt
+- md.sys.typescale.variable.emphasized.label-medium.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.label-medium.tracking: 0pt
+- md.sys.typescale.variable.emphasized.label-medium.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.label-medium.weight: 600
+- md.sys.typescale.variable.emphasized.label-medium.wght: wght=600
+- md.sys.typescale.variable.emphasized.label-small: type(font=Google Sans Flex, weight=600, size=11pt, tracking=0pt, lineHeight=16pt)
+- md.sys.typescale.variable.emphasized.label-small.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.label-small.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.label-small.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.label-small.line-height: 16pt
+- md.sys.typescale.variable.emphasized.label-small.opsz: opsz=11
+- md.sys.typescale.variable.emphasized.label-small.rond: ROND=100
+- md.sys.typescale.variable.emphasized.label-small.size: 11pt
+- md.sys.typescale.variable.emphasized.label-small.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.label-small.tracking: 0pt
+- md.sys.typescale.variable.emphasized.label-small.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.label-small.weight: 600
+- md.sys.typescale.variable.emphasized.label-small.wght: wght=600
+- md.sys.typescale.variable.emphasized.title-large: type(font=Google Sans Flex, weight=500, size=22pt, tracking=0pt, lineHeight=28pt)
+- md.sys.typescale.variable.emphasized.title-large.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.title-large.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.title-large.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.title-large.line-height: 28pt
+- md.sys.typescale.variable.emphasized.title-large.opsz: opsz=22
+- md.sys.typescale.variable.emphasized.title-large.rond: ROND=100
+- md.sys.typescale.variable.emphasized.title-large.size: 22pt
+- md.sys.typescale.variable.emphasized.title-large.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.title-large.tracking: 0pt
+- md.sys.typescale.variable.emphasized.title-large.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.title-large.weight: 500
+- md.sys.typescale.variable.emphasized.title-large.wght: wght=500
+- md.sys.typescale.variable.emphasized.title-medium: type(font=Google Sans Flex, weight=600, size=16pt, tracking=0pt, lineHeight=24pt)
+- md.sys.typescale.variable.emphasized.title-medium.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.title-medium.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.title-medium.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.title-medium.line-height: 24pt
+- md.sys.typescale.variable.emphasized.title-medium.opsz: opsz=16
+- md.sys.typescale.variable.emphasized.title-medium.rond: ROND=100
+- md.sys.typescale.variable.emphasized.title-medium.size: 16pt
+- md.sys.typescale.variable.emphasized.title-medium.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.title-medium.tracking: 0pt
+- md.sys.typescale.variable.emphasized.title-medium.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.title-medium.weight: 600
+- md.sys.typescale.variable.emphasized.title-medium.wght: wght=600
+- md.sys.typescale.variable.emphasized.title-small: type(font=Google Sans Flex, weight=600, size=14pt, tracking=0pt, lineHeight=20pt)
+- md.sys.typescale.variable.emphasized.title-small.crsv: CRSV=None
+- md.sys.typescale.variable.emphasized.title-small.font: Google Sans Flex
+- md.sys.typescale.variable.emphasized.title-small.grad: GRAD=None
+- md.sys.typescale.variable.emphasized.title-small.line-height: 20pt
+- md.sys.typescale.variable.emphasized.title-small.opsz: opsz=14
+- md.sys.typescale.variable.emphasized.title-small.rond: ROND=100
+- md.sys.typescale.variable.emphasized.title-small.size: 14pt
+- md.sys.typescale.variable.emphasized.title-small.slnt: slnt=None
+- md.sys.typescale.variable.emphasized.title-small.tracking: 0pt
+- md.sys.typescale.variable.emphasized.title-small.wdth: wdth=100
+- md.sys.typescale.variable.emphasized.title-small.weight: 600
+- md.sys.typescale.variable.emphasized.title-small.wght: wght=600
+- md.sys.typescale.variable.headline-large: type(font=Google Sans Flex, weight=400, size=32pt, tracking=0pt, lineHeight=40pt)
+- md.sys.typescale.variable.headline-large.crsv: CRSV=None
+- md.sys.typescale.variable.headline-large.font: Google Sans Flex
+- md.sys.typescale.variable.headline-large.grad: GRAD=None
+- md.sys.typescale.variable.headline-large.line-height: 40pt
+- md.sys.typescale.variable.headline-large.opsz: opsz=32
+- md.sys.typescale.variable.headline-large.rond: ROND=None
+- md.sys.typescale.variable.headline-large.size: 32pt
+- md.sys.typescale.variable.headline-large.slnt: slnt=None
+- md.sys.typescale.variable.headline-large.tracking: 0pt
+- md.sys.typescale.variable.headline-large.wdth: wdth=100
+- md.sys.typescale.variable.headline-large.weight: 400
+- md.sys.typescale.variable.headline-large.wght: wght=400
+- md.sys.typescale.variable.headline-medium: type(font=Google Sans Flex, weight=400, size=28pt, tracking=0pt, lineHeight=36pt)
+- md.sys.typescale.variable.headline-medium.crsv: CRSV=None
+- md.sys.typescale.variable.headline-medium.font: Google Sans Flex
+- md.sys.typescale.variable.headline-medium.grad: GRAD=None
+- md.sys.typescale.variable.headline-medium.line-height: 36pt
+- md.sys.typescale.variable.headline-medium.opsz: opsz=28
+- md.sys.typescale.variable.headline-medium.rond: ROND=None
+- md.sys.typescale.variable.headline-medium.size: 28pt
+- md.sys.typescale.variable.headline-medium.slnt: slnt=None
+- md.sys.typescale.variable.headline-medium.tracking: 0pt
+- md.sys.typescale.variable.headline-medium.wdth: wdth=100
+- md.sys.typescale.variable.headline-medium.weight: 400
+- md.sys.typescale.variable.headline-medium.wght: wght=400
+- md.sys.typescale.variable.headline-small: type(font=Google Sans Flex, weight=400, size=24pt, tracking=0pt, lineHeight=32pt)
+- md.sys.typescale.variable.headline-small.crsv: CRSV=None
+- md.sys.typescale.variable.headline-small.font: Google Sans Flex
+- md.sys.typescale.variable.headline-small.grad: GRAD=None
+- md.sys.typescale.variable.headline-small.line-height: 32pt
+- md.sys.typescale.variable.headline-small.opsz: opsz=24
+- md.sys.typescale.variable.headline-small.rond: ROND=None
+- md.sys.typescale.variable.headline-small.size: 24pt
+- md.sys.typescale.variable.headline-small.slnt: slnt=None
+- md.sys.typescale.variable.headline-small.tracking: 0pt
+- md.sys.typescale.variable.headline-small.wdth: wdth=100
+- md.sys.typescale.variable.headline-small.weight: 400
+- md.sys.typescale.variable.headline-small.wght: wght=400
+- md.sys.typescale.variable.label-large: type(font=Google Sans Flex, weight=500, size=14pt, tracking=0pt, lineHeight=20pt)
+- md.sys.typescale.variable.label-large.crsv: CRSV=None
+- md.sys.typescale.variable.label-large.font: Google Sans Flex
+- md.sys.typescale.variable.label-large.grad: GRAD=None
+- md.sys.typescale.variable.label-large.line-height: 20pt
+- md.sys.typescale.variable.label-large.opsz: opsz=14
+- md.sys.typescale.variable.label-large.rond: ROND=None
+- md.sys.typescale.variable.label-large.size: 14pt
+- md.sys.typescale.variable.label-large.slnt: slnt=None
+- md.sys.typescale.variable.label-large.tracking: 0pt
+- md.sys.typescale.variable.label-large.wdth: wdth=100
+- md.sys.typescale.variable.label-large.weight: 500
+- md.sys.typescale.variable.label-large.wght: wght=500
+- md.sys.typescale.variable.label-medium: type(font=Google Sans Flex, weight=500, size=12pt, tracking=0pt, lineHeight=16pt)
+- md.sys.typescale.variable.label-medium.crsv: CRSV=None
+- md.sys.typescale.variable.label-medium.font: Google Sans Flex
+- md.sys.typescale.variable.label-medium.grad: GRAD=None
+- md.sys.typescale.variable.label-medium.line-height: 16pt
+- md.sys.typescale.variable.label-medium.opsz: opsz=12
+- md.sys.typescale.variable.label-medium.rond: ROND=None
+- md.sys.typescale.variable.label-medium.size: 12pt
+- md.sys.typescale.variable.label-medium.slnt: slnt=None
+- md.sys.typescale.variable.label-medium.tracking: 0pt
+- md.sys.typescale.variable.label-medium.wdth: wdth=100
+- md.sys.typescale.variable.label-medium.weight: 500
+- md.sys.typescale.variable.label-medium.wght: wght=500
+- md.sys.typescale.variable.label-small: type(font=Google Sans Flex, weight=500, size=11pt, tracking=0pt, lineHeight=16pt)
+- md.sys.typescale.variable.label-small.crsv: CRSV=None
+- md.sys.typescale.variable.label-small.font: Google Sans Flex
+- md.sys.typescale.variable.label-small.grad: GRAD=None
+- md.sys.typescale.variable.label-small.line-height: 16pt
+- md.sys.typescale.variable.label-small.opsz: opsz=11
+- md.sys.typescale.variable.label-small.rond: ROND=None
+- md.sys.typescale.variable.label-small.size: 11pt
+- md.sys.typescale.variable.label-small.slnt: slnt=None
+- md.sys.typescale.variable.label-small.tracking: 0pt
+- md.sys.typescale.variable.label-small.wdth: wdth=100
+- md.sys.typescale.variable.label-small.weight: 500
+- md.sys.typescale.variable.label-small.wght: wght=500
+- md.sys.typescale.variable.title-large: type(font=Google Sans Flex, weight=400, size=22pt, tracking=0pt, lineHeight=28pt)
+- md.sys.typescale.variable.title-large.crsv: CRSV=None
+- md.sys.typescale.variable.title-large.font: Google Sans Flex
+- md.sys.typescale.variable.title-large.grad: GRAD=None
+- md.sys.typescale.variable.title-large.line-height: 28pt
+- md.sys.typescale.variable.title-large.opsz: opsz=22
+- md.sys.typescale.variable.title-large.rond: ROND=None
+- md.sys.typescale.variable.title-large.size: 22pt
+- md.sys.typescale.variable.title-large.slnt: slnt=None
+- md.sys.typescale.variable.title-large.tracking: 0pt
+- md.sys.typescale.variable.title-large.wdth: wdth=100
+- md.sys.typescale.variable.title-large.weight: 400
+- md.sys.typescale.variable.title-large.wght: wght=400
+- md.sys.typescale.variable.title-medium: type(font=Google Sans Flex, weight=500, size=16pt, tracking=0pt, lineHeight=24pt)
+- md.sys.typescale.variable.title-medium.crsv: CRSV=None
+- md.sys.typescale.variable.title-medium.font: Google Sans Flex
+- md.sys.typescale.variable.title-medium.grad: GRAD=None
+- md.sys.typescale.variable.title-medium.line-height: 24pt
+- md.sys.typescale.variable.title-medium.opsz: opsz=16
+- md.sys.typescale.variable.title-medium.rond: ROND=None
+- md.sys.typescale.variable.title-medium.size: 16pt
+- md.sys.typescale.variable.title-medium.slnt: slnt=None
+- md.sys.typescale.variable.title-medium.tracking: 0pt
+- md.sys.typescale.variable.title-medium.wdth: wdth=100
+- md.sys.typescale.variable.title-medium.weight: 500
+- md.sys.typescale.variable.title-medium.wght: wght=500
+- md.sys.typescale.variable.title-small: type(font=Google Sans Flex, weight=500, size=14pt, tracking=0pt, lineHeight=20pt)
+- md.sys.typescale.variable.title-small.crsv: CRSV=None
+- md.sys.typescale.variable.title-small.font: Google Sans Flex
+- md.sys.typescale.variable.title-small.grad: GRAD=None
+- md.sys.typescale.variable.title-small.line-height: 20pt
+- md.sys.typescale.variable.title-small.opsz: opsz=14
+- md.sys.typescale.variable.title-small.rond: ROND=None
+- md.sys.typescale.variable.title-small.size: 14pt
+- md.sys.typescale.variable.title-small.slnt: slnt=None
+- md.sys.typescale.variable.title-small.tracking: 0pt
+- md.sys.typescale.variable.title-small.wdth: wdth=100
+- md.sys.typescale.variable.title-small.weight: 500
+- md.sys.typescale.variable.title-small.wght: wght=500
