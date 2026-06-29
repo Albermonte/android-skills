@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/icon-buttons/overview
-Generated: 2026-06-15
+Generated: 2026-06-29
 
 Extracted guidance
 - Icon buttons must use a system icon with a clear meaning
