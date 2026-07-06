@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/button-groups/overview
-Generated: 2026-06-29
+Generated: 2026-07-06
 
 Extracted guidance
 - Two variants: standard and connected
