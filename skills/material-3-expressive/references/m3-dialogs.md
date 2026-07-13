@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/dialogs/overview
-Generated: 2026-07-06
+Generated: 2026-07-13
 
 Extracted guidance
 - Use dialogs to make sure users act on information
