@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/navigation-rail/overview
-Generated: 2026-07-06
+Generated: 2026-07-20
 
 Extracted guidance
 - Use navigation rails in medium, expanded, large, or extra-large window sizes Can contain 3-7 destinations plus an optional FAB Always put the rail in the same place, even on different screens of an app
