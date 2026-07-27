@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/extended-fab/overview
-Generated: 2026-07-06
+Generated: 2026-07-27
 
 Extracted guidance
 - Use for the most common or important action on a screen
@@ -40,7 +40,7 @@ Extracted guidance
 - Avoid putting other floating components, like the floating toolbar, on screen with the extended FAB.
 - The FAB and extended FAB can transform into each other depending on available space and layout. In a collapsed navigation rail, a FAB would be used. When the rail is expanded, the FAB can transform into an extended FAB.
 - Right-to-left languages Extended FABs should mirror their elements in right-to-left (RTL) languages.
-- Window sizes In compact and medium window sizes, the extended FAB should be placed at the bottom of the screen, either center-aligned or aligned to the trailing edge of the window.
+- Window sizes In compact and medium breakpoints, the extended FAB should be placed at the bottom of the screen, either center-aligned or aligned to the trailing edge of the window.
 - At the bottom right edge of the window, in both LTR and RTL languages
 - Within the navigation rail
 - Appearing The extended FAB surface expands when appearing on screen using an enter and exit transition pattern.

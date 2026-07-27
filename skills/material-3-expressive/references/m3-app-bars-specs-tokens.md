@@ -103,6 +103,13 @@ Token group index
 - md.sys.elevation.level0
 - md.sys.elevation.level2
 - md.sys.elevation.level3
+- md.sys.measurement.space0
+- md.sys.measurement.space100
+- md.sys.measurement.space150
+- md.sys.measurement.space200
+- md.sys.measurement.space25
+- md.sys.measurement.space300
+- md.sys.measurement.space50
 - md.sys.motion.spring
 - md.sys.shape.corner
 - md.sys.state.focus-indicator
@@ -564,6 +571,27 @@ Token group index
 
 ## md.sys.elevation.level3
 - md.sys.elevation.level3: 6dp
+
+## md.sys.measurement.space0
+- md.sys.measurement.space0: 0dp
+
+## md.sys.measurement.space100
+- md.sys.measurement.space100: 8dp
+
+## md.sys.measurement.space150
+- md.sys.measurement.space150: 12dp
+
+## md.sys.measurement.space200
+- md.sys.measurement.space200: 16dp
+
+## md.sys.measurement.space25
+- md.sys.measurement.space25: 2dp
+
+## md.sys.measurement.space300
+- md.sys.measurement.space300: 24dp
+
+## md.sys.measurement.space50
+- md.sys.measurement.space50: 4dp
 
 ## md.sys.motion.spring
 - md.sys.motion.spring.fast.spatial: composite(damping=0.9, stiffness=1400)

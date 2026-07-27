@@ -66,6 +66,10 @@ Token group index
 - md.sys.color.surface-container
 - md.sys.color.surface-tint
 - md.sys.elevation.level2
+- md.sys.measurement.space0
+- md.sys.measurement.space200
+- md.sys.measurement.space50
+- md.sys.measurement.space75
 - md.sys.shape.corner
 - md.sys.state.focus
 - md.sys.state.focus-indicator
@@ -324,6 +328,18 @@ Token group index
 
 ## md.sys.elevation.level2
 - md.sys.elevation.level2: 3dp
+
+## md.sys.measurement.space0
+- md.sys.measurement.space0: 0dp
+
+## md.sys.measurement.space200
+- md.sys.measurement.space200: 16dp
+
+## md.sys.measurement.space50
+- md.sys.measurement.space50: 4dp
+
+## md.sys.measurement.space75
+- md.sys.measurement.space75: 6dp
 
 ## md.sys.shape.corner
 - md.sys.shape.corner.full: SHAPE_FAMILY_CIRCULAR

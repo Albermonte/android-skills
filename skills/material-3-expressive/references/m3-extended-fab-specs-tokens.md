@@ -86,6 +86,10 @@ Token group index
 - md.sys.elevation.level2
 - md.sys.elevation.level3
 - md.sys.elevation.level4
+- md.sys.measurement.space100
+- md.sys.measurement.space150
+- md.sys.measurement.space200
+- md.sys.measurement.space250
 - md.sys.shape.corner
 - md.sys.state.focus
 - md.sys.state.focus-indicator
@@ -617,6 +621,18 @@ Token group index
 
 ## md.sys.elevation.level4
 - md.sys.elevation.level4: 8dp
+
+## md.sys.measurement.space100
+- md.sys.measurement.space100: 8dp
+
+## md.sys.measurement.space150
+- md.sys.measurement.space150: 12dp
+
+## md.sys.measurement.space200
+- md.sys.measurement.space200: 16dp
+
+## md.sys.measurement.space250
+- md.sys.measurement.space250: 20dp
 
 ## md.sys.shape.corner
 - md.sys.shape.corner.extra-large: SHAPE_FAMILY_ROUNDED_CORNERS

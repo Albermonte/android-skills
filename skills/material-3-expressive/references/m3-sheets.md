@@ -3,7 +3,7 @@
 Source URLs:
 - https://m3.material.io/components/bottom-sheets/overview
 - https://m3.material.io/components/side-sheets/overview
-Generated: 2026-07-06
+Generated: 2026-07-27
 
 Extracted guidance
 - Use bottom sheets in compact and medium window sizes
@@ -67,7 +67,7 @@ Extracted guidance
 - Attribute Value Start/end padding 24dp Start padding with icon 16dp Padding between top elements 12dp Bottom actions height 72dp Bottom actions top padding 16dp Bottom actions bottom padding 24dp Bottom actions alignment (horizontal) Left Max-width 400dp Margins (when detached) 16dp
 - Displaying a list of actions that affect the screen's primary content, such as filters
 - Displaying supplemental content and features
-- Modal side sheets are preferred in compact window sizes, like mobile, due to limited screen size. They can display the same kinds of content as standard side sheets, but must be dismissed in order to interact with the underlying content.
+- Modal side sheets are preferred in compact breakpoints, like mobile, due to limited screen size. They can display the same kinds of content as standard side sheets, but must be dismissed in order to interact with the underlying content.
 - Side sheets have a fixed width and typically span the height of the screen. Their dimensions depend on how the app's layout is subdivided into UI regions.
 - Container Side sheet containers hold all side sheet elements. Their size is determined by the space those elements occupy. The container is the only required element of a side sheet.
 - Back icon button (optional) Icon buttons can provide ways to exit a side sheet or move to a different experience. Because the primary content behind or beside a side sheet is always visible, it's important to provide affordances for leaving a side sheet and returning to the primary content.
