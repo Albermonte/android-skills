@@ -45,6 +45,8 @@ Token group index
 - md.sys.color.surface-container-highest
 - md.sys.color.tertiary
 - md.sys.color.tertiary-container
+- md.sys.measurement.space0
+- md.sys.measurement.space50
 - md.sys.shape.corner
 
 ## md.comp.circular-progress-indicator.active-indicator
@@ -207,6 +209,12 @@ Token group index
 
 ## md.sys.color.tertiary-container
 - md.sys.color.tertiary-container: #FFD8E4
+
+## md.sys.measurement.space0
+- md.sys.measurement.space0: 0dp
+
+## md.sys.measurement.space50
+- md.sys.measurement.space50: 4dp
 
 ## md.sys.shape.corner
 - md.sys.shape.corner.full: SHAPE_FAMILY_CIRCULAR

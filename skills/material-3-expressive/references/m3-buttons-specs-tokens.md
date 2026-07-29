@@ -129,6 +129,13 @@ Token group index
 - md.sys.elevation.level1
 - md.sys.elevation.level2
 - md.sys.elevation.level3
+- md.sys.measurement.space100
+- md.sys.measurement.space150
+- md.sys.measurement.space200
+- md.sys.measurement.space300
+- md.sys.measurement.space50
+- md.sys.measurement.space600
+- md.sys.measurement.space800
 - md.sys.motion.spring
 - md.sys.shape.corner
 - md.sys.state.dragged
@@ -538,7 +545,7 @@ Token group index
 - md.comp.button.xsmall.container.height: 32dp
 - md.comp.button.xsmall.container.shape.round: SHAPE_FAMILY_CIRCULAR
 - md.comp.button.xsmall.container.shape.square: SHAPE_FAMILY_ROUNDED_CORNERS
-- md.comp.button.xsmall.icon-label-space: 8dp
+- md.comp.button.xsmall.icon-label-space: 4dp
 - md.comp.button.xsmall.icon.size: 20dp
 - md.comp.button.xsmall.label-text: type(font=Google Sans Text, weight=500, size=14pt, tracking=0pt, lineHeight=20pt)
 - md.comp.button.xsmall.leading-space: 12dp
@@ -1004,6 +1011,27 @@ Token group index
 
 ## md.sys.elevation.level3
 - md.sys.elevation.level3: 6dp
+
+## md.sys.measurement.space100
+- md.sys.measurement.space100: 8dp
+
+## md.sys.measurement.space150
+- md.sys.measurement.space150: 12dp
+
+## md.sys.measurement.space200
+- md.sys.measurement.space200: 16dp
+
+## md.sys.measurement.space300
+- md.sys.measurement.space300: 24dp
+
+## md.sys.measurement.space50
+- md.sys.measurement.space50: 4dp
+
+## md.sys.measurement.space600
+- md.sys.measurement.space600: 48dp
+
+## md.sys.measurement.space800
+- md.sys.measurement.space800: 64dp
 
 ## md.sys.motion.spring
 - md.sys.motion.spring.fast.spatial.damping: 0.9

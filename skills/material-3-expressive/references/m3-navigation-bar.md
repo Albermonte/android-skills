@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/navigation-bar/overview
-Generated: 2026-07-06
+Generated: 2026-07-27
 
 Extracted guidance
 - Use navigation bars in compact or medium window sizes
@@ -45,7 +45,7 @@ Extracted guidance
 - Badges (optional) Navigation bars can display badges in the upper right corners of the destination icon. Badges can contain dynamic information, such as the number of new messages.
 - The floating action button (FAB) is placed above the navigation bar. Nav bars are always placed at the bottom of the window.
 - Navigation bars can be temporarily covered by dialogs, bottom sheets, navigation drawers, the on-screen keyboard, or other elements needed to complete a flow. They should not be permanently obstructed on any screen.
-- Resizing Only use navigation bars for compact and medium window size classes. Compact : For narrow windows, use a navigation bar or modal navigation rail. Medium : Use a navigation bar or navigation rail. Decide based on whether horizontal or vertical space is more important. Expanded and extra-large : Use a navigation rail instead. Decide based on available window space and the number of navigation destinations.
+- Resizing Only use navigation bars for compact and medium breakpoints. Compact : For narrow windows, use a navigation bar or modal navigation rail. Medium : Use a navigation bar or navigation rail. Decide based on whether horizontal or vertical space is more important. Expanded and extra-large : Use a navigation rail instead. Decide based on available window space and the number of navigation destinations.
 - The navigation bar container spans 100% of the window width.
 - The navigation bar is used on smaller devices. It's not intended for desktop.
 - Presentation In medium window sizes, use horizontal nav items to better use available space. Horizontal nav items should remain centered with the same padding at each window size.

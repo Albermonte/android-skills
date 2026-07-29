@@ -8,6 +8,9 @@ Extracted design tokens
 Token group index
 - md.comp.button-group.connected
 - md.comp.button-group.standard
+- md.sys.measurement.space100
+- md.sys.measurement.space150
+- md.sys.measurement.space25
 - md.sys.motion.spring
 - md.sys.shape.corner
 - md.sys.shape.corner-value
@@ -70,6 +73,15 @@ Token group index
 - md.comp.button-group.standard.xsmall.pressed.item.width.motion.spring.dampening: 0.9
 - md.comp.button-group.standard.xsmall.pressed.item.width.motion.spring.stiffness: 1400
 - md.comp.button-group.standard.xsmall.pressed.item.width.multiplier: 15%
+
+## md.sys.measurement.space100
+- md.sys.measurement.space100: 8dp
+
+## md.sys.measurement.space150
+- md.sys.measurement.space150: 12dp
+
+## md.sys.measurement.space25
+- md.sys.measurement.space25: 2dp
 
 ## md.sys.motion.spring
 - md.sys.motion.spring.fast.spatial.damping: 0.9

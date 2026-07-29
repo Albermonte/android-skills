@@ -121,6 +121,17 @@ Token group index
 - md.sys.color.secondary-container
 - md.sys.color.surface-container
 - md.sys.color.surface-container-highest
+- md.sys.measurement.space100
+- md.sys.measurement.space125
+- md.sys.measurement.space150
+- md.sys.measurement.space175
+- md.sys.measurement.space200
+- md.sys.measurement.space300
+- md.sys.measurement.space400
+- md.sys.measurement.space50
+- md.sys.measurement.space600
+- md.sys.measurement.space75
+- md.sys.measurement.space900
 - md.sys.motion.spring
 - md.sys.shape.corner
 - md.sys.state.focus
@@ -791,6 +802,39 @@ Token group index
 
 ## md.sys.color.surface-container-highest
 - md.sys.color.surface-container-highest: #DDE3EA
+
+## md.sys.measurement.space100
+- md.sys.measurement.space100: 8dp
+
+## md.sys.measurement.space125
+- md.sys.measurement.space125: 10dp
+
+## md.sys.measurement.space150
+- md.sys.measurement.space150: 12dp
+
+## md.sys.measurement.space175
+- md.sys.measurement.space175: 14dp
+
+## md.sys.measurement.space200
+- md.sys.measurement.space200: 16dp
+
+## md.sys.measurement.space300
+- md.sys.measurement.space300: 24dp
+
+## md.sys.measurement.space400
+- md.sys.measurement.space400: 32dp
+
+## md.sys.measurement.space50
+- md.sys.measurement.space50: 4dp
+
+## md.sys.measurement.space600
+- md.sys.measurement.space600: 48dp
+
+## md.sys.measurement.space75
+- md.sys.measurement.space75: 6dp
+
+## md.sys.measurement.space900
+- md.sys.measurement.space900: 72dp
 
 ## md.sys.motion.spring
 - md.sys.motion.spring.fast.spatial.damping: 0.9
