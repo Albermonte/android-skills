@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/styles/color/system/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Built-in set of accessible color relationships
@@ -10,7 +10,6 @@ Extracted guidance
 - Built-in dark theme colors
 - Static baseline color scheme with default colors assigned to each color role
 - Dynamic color features including user-generated and content-based color
-- For products migrating from M2 to M3, start by mapping the baseline color scheme to your existing product. It can easily switch to dynamic color when ready.
 - Automatic dark theme
 - Resources Type Link Status Design Design Kit (Figma) Available Implementation Android Views (MDC-Android) Available Jetpack Compose Available Flutter Available Tools Material Theme Builder Available
 - May 2025 Three levels of contrast Color roles support three levels of contrast so people can select the one that best suits their vision needs. Contrasts also are tokenized.
@@ -18,7 +17,6 @@ Extracted guidance
 - On secondary container
 - On tertiary container
 - On error container
-- Bottom app bar
 - How the system works
 - Feb 2023 Tone-based surface colors Tone-based surface color roles have replaced the previous approach of surfaces at +1 to +5 elevation. The new color roles are not tied to elevation and offer more flexibility and support for color features, such as user-controlled contrast.
 - Updated the default light theme surface from tone 99 to tone 98
@@ -61,3 +59,4 @@ Extracted guidance
 - Hue Hue is the perception of a color as red, orange, yellow, green, blue, violet, and so on. Hue is quantified by a number ranging from 0-360 and is a circular spectrum (values 0 and 360 are the same hue).
 - Chroma Chroma is how colorful or neutral (grey, black or white) a color appears. Chroma is quantified by a number ranging from 0 (completely grey, black or white) to infinity (most vibrant), though Chroma values in HCT top out at roughly 120. Because of biological and screen rendering limitations, different hues and different tones will have different maximal chroma values.
 - Tone Tone is how light or dark a color appears. Tone is sometimes also referred to as luminance. Tone is quantified by a number ranging from 0 (pure black, no luminance) to 100 (pure white, complete luminance). Tone is crucial for visual accessibility because it determines contrast. Colors with a greater difference in tone create higher contrast, while those with a smaller difference create lower contrast.
+- HCT isn't interchangeable with other color spaces Values from models like hue, saturation, and lightness (HSL) won't perfectly map to Material's hue, chroma, and tone (HCT). Don't conflate color spaces when inspecting or adjusting colors. For example, colors with the same perceived brightness share the same tone value in HCT, but can have different HSL lightness values.

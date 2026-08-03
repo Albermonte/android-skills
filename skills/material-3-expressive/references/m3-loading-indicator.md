@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/loading-indicator/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Recommended as a replacement for indeterminate circular progress indicators
@@ -27,7 +27,7 @@ Extracted guidance
 - While loading a page or container, the loading indicator should be centered on the element.
 - When loading more items on a page with existing content, place the loading indicator in the empty space where the new content will appear. Avoid overlapping existing content.
 - Loading indicators can be placed within other components, such as buttons, to indicate that the action is ongoing, such as validating a form or checking for updates.
-- Loading indicators default to 48dp, but the size is flexible. It should be between 24dp to 240dp, depending on the placement and the window size. Avoid exceeding the minimum and maximum sizes. The ratio between the container and the active indicator stays the same when resizing the loading indicator. Reserve very large progress indicators for large and extra-large windows, like desktop.
+- Loading indicators default to 48dp, but the size is flexible. It should be between 24dp to 240dp, depending on the placement and the breakpoint. Avoid exceeding the minimum and maximum sizes. The ratio between the container and the active indicator stays the same when resizing the loading indicator. Reserve very large progress indicators for large and extra-large windows, like desktop.
 - Larger windows As the pane or window size grows, consider scaling the loading indicator as well, so it remains proportional in size to the empty space around it. The loading indicator shouldn't exceed 240dp.
 - Pull-to-refresh The loading indicator is used in pull-to-refresh on Jetpack Compose only. Pull-to-refresh is an Android system feature that manually refreshes screen content with an action or gesture. It's used at the beginning of lists, grid lists, and card collections where the most recent content appears. It's best to use pull-to-refresh with dynamic content that can have frequent updates, where people have a high chance of seeing new content after refreshing.
 - Threshold requirements To ensure intentional usage of the pull-to-refresh gesture, the loading indicator must pass a threshold before the app will refresh.

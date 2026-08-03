@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/progress-indicators/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Two variants: linear and circular
@@ -33,7 +33,7 @@ Extracted guidance
 - Circular progress indicators should be centered directly on the container or page that's loading, such as a button or card. When loading more items on a page, place the circular progress indicator in the empty space where the new content will appear, not overlapping existing content. However, if the content does not take long to load, consider using a loading indicator instead.
 - Progress indicators in buttons A circular indicator can be placed in a button to show that the button's action is currently in progress. In very small buttons, use the flat shape since the wavy shape is not as visible at that size. To ensure a minimum 3:1 contrast ratio, change the active indicator color to be the same color as the button's icon or label text, and remove the track.
 - Right-to-left languages Linear progress indicators should be mirrored horizontally for products using right-to-left (RTL) languages. Circular progress indicators don't need to be mirrored.
-- Large screens Circular progress indicators have flexible sizes. They can range from 24dp to 240dp, depending on the placement and the window size. Avoid exceeding the minimum and maximum sizes. Reserve very large progress indicators for large and extra-large windows, such as desktop.
+- Large screens Circular progress indicators have flexible sizes. They can range from 24dp to 240dp, depending on the placement and the breakpoint. Avoid exceeding the minimum and maximum sizes. Reserve very large progress indicators for large and extra-large windows, such as desktop.
 - Linear progress indicators dynamically adjust to fit the width of the window or element they're placed within, such as a card. They shouldn't be used in any elements smaller than 40dp. The padding on each end should be 4dp minimum, but can be modified.
 - Navigate to the progress indicator
 - Understand what progress the indicator is communicating

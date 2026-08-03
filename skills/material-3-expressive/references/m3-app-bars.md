@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/app-bars/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Focus on describing the current page and provide 1-2 essential actions
@@ -72,7 +72,7 @@ Extracted guidance
 - Trailing icon buttons Up to two icon buttons can be placed after the headline, aligned to the trailing edge of the app bar. Place most-used actions closest to the leading edge. Avoid using these buttons to open a menu with more actions. If more actions are needed, place them in a toolbar instead. If changing the icon button color style to filled or tonal, only use one icon button.
 - Use filled icons when possible for the best visibility. Outlined icons can also be used, particularly for unselected toggle buttons.
 - Resizing The width of the app bar container responds to the view or device width. It should always span 100% of the window width.
-- Resizing may cause actions at the trailing edge of the app bar to collapse into an overflow menu at smaller window sizes. These actions become visible again at larger sizes.
+- Resizing may cause actions at the trailing edge of the app bar to collapse into an overflow menu at smaller breakpoints. These actions become visible again at larger sizes.
 - The search container of the search app bar should fill 100% of the space between leading and trailing app bar elements until it reaches 312dp. Then, it should only grow further to fill 50% of that space.
 - Presentation The app bar automatically supports right-to-left (RTL) languages by aligning the layout of elements to the leading and trailing edges of the container. This means that in RTL languages, the layout of the app bar is mirrored.
 - Scrolling App bars should initially be the same color as the background, then fill with a contrasting color on scroll to provide visual separation from the background. The app bar can remain on a page at all times, or can hide and reappear when scrolling.

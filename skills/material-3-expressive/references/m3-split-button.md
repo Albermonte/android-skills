@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/split-button/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Use to show an action with a menu of related actions
@@ -28,7 +28,7 @@ Extracted guidance
 - The split button uses the standard motion scheme (not the expressive motion scheme) when rotating the menu button. The menu button rotates inwards 180 when opened and closed.
 - Menu placement When using the split button with a menu, align the menu with the trailing button when possible.
 - If there's not enough room, align the menu to one of the sides of the button.
-- Depending on window size, scroll position, and other factors, the menu may need to appear elsewhere around the button. Always try to align it with one of the edges of the button. The menu should be 4dp from the split button.
+- Depending on breakpoint, scroll position, and other factors, the menu may need to appear elsewhere around the button. Always try to align it with one of the edges of the button. The menu should be 4dp from the split button.
 - Navigate to each button and interact with them
 - Navigate to any element opened by the trailing button
 - Understand the current selection state of the button

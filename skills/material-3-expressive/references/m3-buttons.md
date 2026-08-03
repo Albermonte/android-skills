@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/buttons/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Two variants: default and toggle
@@ -65,7 +65,7 @@ Extracted guidance
 - When scaling layouts for large screen devices, buttons can adapt their visual presentation, size, alignment, and arrangement to fit different contexts and user needs.
 - Choose the best button position based on screen size.
 - The icon and label text in a button stay centered and grouped as the button's width changes.
-- Buttons can be customized to change size and scaling behavior across different window sizes. To avoid creating very long buttons in large windows, constrain button width or place buttons beside other elements.
+- Buttons can be customized to change size and scaling behavior across different breakpoints. To avoid creating very long buttons in large windows, constrain button width or place buttons beside other elements.
 - The size and placement of buttons can change as parent containers, such as cards, adapt for larger screens. Keep items, including buttons, in the same order between large and small screens to provide a consistent experience for screen readers and keyboard navigation.
 - Use a button to perform an action
 - Navigate to and activate a button

@@ -3,10 +3,10 @@
 Source URLs:
 - https://m3.material.io/components/bottom-sheets/overview
 - https://m3.material.io/components/side-sheets/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
-- Use bottom sheets in compact and medium window sizes
+- Use bottom sheets in compact and medium breakpoints
 - Two variants: standard and modal
 - Content should be additional or secondary (not the app's main content)
 - Bottom sheets can be dismissed in order to interact with the main content
@@ -37,9 +37,9 @@ Extracted guidance
 - Tapping the scrim
 - Swiping the sheet down
 - Using a close affordance within the bottom sheet's app bar, if available
-- Compact window size In compact window sizes, like mobile devices, bottom sheets extend across the width of a screen and are elevated above the primary content.
-- Medium and expanded window sizes For larger screens with medium and expanded window sizes, bottom sheets have a default max-width to prevent undesired layouts and awkward spacing. However, this can be overridden if needed. For more complex tasks and flows, consider using a non-transient surface such as a floating sheet.
-- On larger expanded window sizes, like desktop, a bottom sheet can be swapped for a side sheet that shows similar content.
+- Compact breakpoint In compact breakpoints, like mobile devices, bottom sheets extend across the width of a screen and are elevated above the primary content.
+- Medium and expanded breakpoints For larger screens with medium and expanded breakpoints, bottom sheets have a default max-width to prevent undesired layouts and awkward spacing. However, this can be overridden if needed. For more complex tasks and flows, consider using a non-transient surface such as a floating sheet.
+- On larger expanded breakpoints, like desktop, a bottom sheet can be swapped for a side sheet that shows similar content.
 - Bottom sheets can offer an expansion option where the sheet is fully raised and toggled between a collapsed and expanded state. This provides a more predictable footprint of the sheet, and can be set by the system or toggled by the user.
 - The drag handle can be dragged or selected to change the bottom sheet height. Sheets should be able to cycle through preset heights and close completely without dragging. Selecting the drag handle should toggle through preset heights or close the sheet, while selecting the scrim should always close the bottom sheet. If the bottom sheet has multiple preset heights but can't use a drag handle, Material requires the inclusion of a single-pointer alternative to change height.
 - Bottom sheets can be horizontally scrolled, independent of the rest of the screen's content.
