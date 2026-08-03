@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/navigation-bar/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Use navigation bars in compact or medium window sizes
@@ -48,7 +48,7 @@ Extracted guidance
 - Resizing Only use navigation bars for compact and medium breakpoints. Compact : For narrow windows, use a navigation bar or modal navigation rail. Medium : Use a navigation bar or navigation rail. Decide based on whether horizontal or vertical space is more important. Expanded and extra-large : Use a navigation rail instead. Decide based on available window space and the number of navigation destinations.
 - The navigation bar container spans 100% of the window width.
 - The navigation bar is used on smaller devices. It's not intended for desktop.
-- Presentation In medium window sizes, use horizontal nav items to better use available space. Horizontal nav items should remain centered with the same padding at each window size.
+- Presentation In medium breakpoints, use horizontal nav items to better use available space. Horizontal nav items should remain centered with the same padding at each breakpoint.
 - Preserve state : If someone has interacted with this destination, it returns to their scroll position, current tab, and in-line search status.
 - Reset state : Any prior user interactions are reset, including scroll position, tab selection, and in-line search.
 - Re-selecting the currently active destination should reset the scroll position to the top of the page. Don't swipe between destinations Swiping across the screen does not navigate between destinations, and is not supported by the navigation bar. Swipe behavior should be reserved for related items, such as cards in a carousel, or actions such as archiving a list item.

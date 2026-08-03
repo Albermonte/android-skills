@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/dialogs/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Use dialogs to make sure users act on information
@@ -44,8 +44,8 @@ Extracted guidance
 - Errors about the dialog fields should always appear inline where they occur. Some components like text fields have built-in error messaging, while others like checkboxes and radio buttons need error messages to be added next to the fields. General errors such as network issues preventing saving or submitting should appear in a basic dialog when the confirming action fails. Error messages should clearly but briefly explain the source of the error and how to fix it. Show all errors on the page at once so people can fix everything before trying again.
 - Dialog windows Launching a full-screen dialog temporarily resets the app's perceived elevation, allowing simple menus or dialogs to appear above the full-screen dialog. They cover the screen and don't appear as a floating modal window. Navigation Because full-screen dialogs can only be completed, dismissed, or closed, the close "X" icon button should be the only navigation option in the app bar.
 - Dialogs can swap variants as the breakpoint changes. For example, a full-screen dialog can change into a basic dialog at larger breakpoints.
-- Medium window size Basic dialogs appear in a center position by default. Their position can be overridden to provide a more ergonomic experience.
-- Expanded window size Dialogs on expanded breakpoints, like desktop, are modal windows above a scrim. This puts the dialog at the forefront of a person's view, calling attention to the action prompted in the dialog.
+- Medium breakpoint Basic dialogs appear in a center position by default. Their position can be overridden to provide a more ergonomic experience.
+- Expanded breakpoint Dialogs on expanded breakpoints, like desktop, are modal windows above a scrim. This puts the dialog at the forefront of a person's view, calling attention to the action prompted in the dialog.
 - Basic dialogs can be custom-positioned anywhere on larger screens, respecting margins to prevent edge collision.
 - Appearing Dialogs appear without warning, requiring users to stop their current task. They should be used sparingly, as not every choice or setting warrants interruption. Dialogs use an enter and exit transition pattern to appear on screen.
 - Position Dialogs retain focus until dismissed or an action has been taken, such as choosing a setting. They shouldn't be obscured by other elements or appear partially on screen, with the exception of full-screen dialogs.

@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/button-groups/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Two variants: standard and connected
@@ -44,11 +44,11 @@ Extracted guidance
 - Color Avoid mixing color styles in connected button groups; it can make selection and emphasis unclear.
 - Container The standard button group container has padding between buttons so they can animate width and shape without disrupting the product layout. The standard button group hugs the width of the buttons inside.
 - The connected button group should span the width of the page or surface it's placed on, increasing the button widths inside. In larger windows, consider adding a maximum width to the connected group to avoid it growing too wide.
-- Fixed : Manually define the button width (narrow to wide), size (XS to XL), or padding at each window size.
+- Fixed : Manually define the button width (narrow to wide), size (XS to XL), or padding at each breakpoint.
 - Flexible : Automatically increase or decrease the width of buttons and the button group. Button groups grow until all flexible buttons are at their largest width.
 - In compact windows, consider using smaller, narrower buttons so all buttons in the button group can fit. In large and extra large windows, consider using larger, wider buttons to better fill in the available space. Flexible buttons or button groups will automatically adjust width.
-- When scaling to larger window sizes, make sure that the visual hierarchy of each button is preserved using qualities like color and size. For example, the primary action should remain the largest, widest, or most visually prominent button at all window sizes.
-- Presentation Buttons at the trailing edge of the button group can be customized to collapse into an overflow menu at smaller window sizes, and become visible again at larger sizes. Place the overflow menu at the trailing end of the group. Buttons outside the group aren't affected by button group behavior.
+- When scaling to larger breakpoints, make sure that the visual hierarchy of each button is preserved using qualities like color and size. For example, the primary action should remain the largest, widest, or most visually prominent button at all breakpoints.
+- Presentation Buttons at the trailing edge of the button group can be customized to collapse into an overflow menu at smaller breakpoints, and become visible again at larger sizes. Place the overflow menu at the trailing end of the group. Buttons outside the group aren't affected by button group behavior.
 - Pressed When a button is pressed, it changes width and shape. In a standard button group, pressing a button also affects the width of adjacent buttons. In a connected button group, only the shape of the pressed button changes.
 - Selected A selected button should change shape from round to square, or square to round.
 - Navigate to and interact with each button in the group

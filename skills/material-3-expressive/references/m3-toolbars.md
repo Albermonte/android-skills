@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/toolbars/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Two expressive variants: docked toolbar and floating toolbar
@@ -55,17 +55,17 @@ Extracted guidance
 - Position & orientation
 - Only place docked toolbars at the bottom of the window. If using other bottom-aligned elements, such as a navigation bar, don't use a docked toolbar.
 - Floating toolbars can be horizontal or vertical. Horizontal toolbars should have a minimum 16dp margin from the edge of the window.
-- In larger window sizes, floating toolbars can be vertical and placed on either side of the screen. Vertical toolbars should have a minimum 24dp margin.
+- In larger breakpoints, floating toolbars can be vertical and placed on either side of the screen. Vertical toolbars should have a minimum 24dp margin.
 - To keep vertical toolbars compact, don't use wide icon buttons. Use narrow or default icon buttons instead.
 - Vertical toolbars should be positioned opposite the navigation rail to balance out the screen and keep actions easy to access. When showing a navigation rail and vertical floating toolbar at once, use the centered configuration of the navigation rail.
 - Centering all elements
 - Customizing to center a key action, and aligning other elements to the edges
 - On web and large screens, the docked toolbar can be rounded. Dividers can be used to organize large amounts of items. Only shrink the height and use extra small buttons if vertical space is limited.
-- Floating The container should only be as big as needed to hold the items inside before reaching the 16dp margin. If there's not enough space for all items, put them in an overflow menu in the trailing slot. As the window size expands, more actions can be revealed. The floating toolbar width can also be capped to keep it smaller and hide more elements.
+- Floating The container should only be as big as needed to hold the items inside before reaching the 16dp margin. If there's not enough space for all items, put them in an overflow menu in the trailing slot. As the breakpoint expands, more actions can be revealed. The floating toolbar width can also be capped to keep it smaller and hide more elements.
 - Vertical toolbars aren't recommended for compact windows. They take up a significant area of the screen and may feel visually overwhelming, especially on screens with complex layouts. Only use them when the screen is simple or when the toolbar has a few controls.
-- In larger window sizes, floating toolbars can be aligned to opposite edges of the screen so they're easy to reach and group similar actions. For example, consider placing the undo and redo actions in one toolbar, and editing controls like highlight, erase, and select in another. Stylistic differences can help emphasize each toolbar's purpose and clarify hierarchy.
+- In larger breakpoints, floating toolbars can be aligned to opposite edges of the screen so they're easy to reach and group similar actions. For example, consider placing the undo and redo actions in one toolbar, and editing controls like highlight, erase, and select in another. Stylistic differences can help emphasize each toolbar's purpose and clarify hierarchy.
 - Don't use multiple toolbars in compact windows. There typically isn't enough room on screen. Instead, use one toolbar for all actions.
-- Actions at the trailing edge of the toolbar can collapse into an overflow menu at smaller window sizes, and become visible again at larger sizes.
+- Actions at the trailing edge of the toolbar can collapse into an overflow menu at smaller breakpoints, and become visible again at larger sizes.
 - Right-to-left languages In right-to-left (RTL) languages, mirror individual items that need it, like icons and text direction. If the order of actions is important, flip the order of the actions as well.
 - Scrolling Docked toolbars can either remain on the screen during scroll, or animate offscreen.
 - Floating toolbars can remain on the screen, animate offscreen, or collapse into a single, high-emphasis action on scroll.

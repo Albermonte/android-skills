@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/carousel/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Contain visual items like images or video, along with optional label text
@@ -47,11 +47,11 @@ Extracted guidance
 - Center-aligned hero When the hero layout is center-aligned, it adds an additional previewed item on the leading edge, making the large carousel item centered.
 - Full-screen The full-screen layout is best used for immersive experiences like video articles, featured headlines, or items that are visually rich. It can contain text and other UI elements on top of the image. This layout works best with content that is taller than it is wide, and scrolls vertically. It only works in portrait orientation in compact and medium windows. Don't use this layout in landscape orientation. Use snap-scrolling for full-screen layouts. Don't use default scrolling.
 - Container The carousel container holds all carousel items. The number of carousel items visible in the container can change based on the carousel layout and the breakpoint.
-- Carousel items Carousel items hold content. A carousel item has no fixed width; it changes width depending on the window size or its position in the carousel's layout. There are three dynamic widths an item can be: large , medium , and small .
+- Carousel items Carousel items hold content. A carousel item has no fixed width; it changes width depending on the breakpoint or its position in the carousel's layout. There are three dynamic widths an item can be: large , medium , and small .
 - Large items have a max width that can be adjusted. This changes how all other large, medium, and small carousel items fit on screen. Large items must remain big enough to be easy to understand and recognize. Medium items adjust width dynamically to the carousel size and available space. Small items have a width range of 40-56dp.
 - When the large item's max width is narrow enough, more items can be shown on screen at once. In compact windows, this is only recommended for carousels with simple imagery.
 - Item text (optional) Carousel items are primarily visual. Item text is optional and should be brief. If your carousel items require a lot of text, consider using the uncontained layout , which can show more information, or use a series of cards instead.
-- Content within a carousel item can adapt dynamically based on the container and window size. Text should always be understandable at each size. Consider adapting the text to use brief labels on smaller carousel items.
+- Content within a carousel item can adapt dynamically based on the container and breakpoint. Text should always be understandable at each size. Consider adapting the text to use brief labels on smaller carousel items.
 - As the carousel container size increases, so do the number of carousel items visible at a time. In compact breakpoints, carousels can comfortably show up to three carousel items at once. As the window size grows, more carousel items are added and scale in size. Full-screen carousels only ever show one item at once.
 - Scrolling Carousel items have a parallax effect when they're scrolled. The default scrolling behavior doesn't snap items to a layout grid. They can stop anywhere in the container. Only use this for the uncontained layout. The snap-scrolling behavior aligns carousel items to the layout grid after they're scrolled. Items snap to the grid when released. Use this for multi-browse, hero, and full-screen layouts.
 - In full-screen layouts, make sure the carousel items snap to the edges of the carousel container. Avoid letting them scroll freely or stop halfway. Full-screen layouts must use snap-scrolling.

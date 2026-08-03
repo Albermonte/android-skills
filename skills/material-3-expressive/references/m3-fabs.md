@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/floating-action-button/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Use a FAB for the most common or important action on a screen
@@ -32,7 +32,7 @@ Extracted guidance
 - Use the table's menu to select a token set. This only includes tokens for small and surface FABs, which are both no longer recommended. It doesn't include other colors, or large or regular FABs, since those are still currently used.
 - Use a FAB for the most important action on a screen; it appears in front of all other content. The FAB can be aligned left, center, or right. It can be positioned above the navigation bar, or nested within it.
 - Medium FAB (most recommended)
-- The FAB is the smallest size, and is best used in compact windows where other actions may be present on screen. The medium FAB is recommended for most situations, and works best in compact and medium windows. Use it for important actions without taking up too much space. A large FAB is useful in any window size when the layout calls for a clear and prominent primary action, but is best suited for expanded and larger window sizes, where its size helps draw attention.
+- The FAB is the smallest size, and is best used in compact windows where other actions may be present on screen. The medium FAB is recommended for most situations, and works best in compact and medium windows. Use it for important actions without taking up too much space. A large FAB is useful in any window size when the layout calls for a clear and prominent primary action, but is best suited for expanded and larger breakpoints, where its size helps draw attention.
 - Start a process
 - Archive or trash
 - Alerts or errors

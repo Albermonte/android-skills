@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/extended-fab/overview
-Generated: 2026-07-27
+Generated: 2026-08-03
 
 Extracted guidance
 - Use for the most common or important action on a screen
@@ -33,14 +33,14 @@ Extracted guidance
 - Additional emphasis The extended FAB can provide more emphasis and clarity to a product's primary action. Since it has room for both a text label and icon, the extended FAB can be effective where an icon alone is ambiguous. However, the relationship between an extended FAB's icon and label should be clear.
 - Like the regular FAB, only one extended FAB should be used per screen. Multiple FABs compete for attention. If additional high-level actions are required, consider adding more buttons elsewhere on the page.
 - The extended FAB shouldn't be used as an option in a set of actions. Instead, use filled buttons for a similar level of emphasis.
-- Choosing a size There are three variants of extended FABs: small, medium, and large. Choose an appropriately-sized extended FAB to add the right amount of emphasis for an action. In compact windows with one prominent action, the large extended FAB can be appropriate. In larger window sizes, use a medium or large extended FAB.
+- Choosing a size There are three variants of extended FABs: small, medium, and large. Choose an appropriately-sized extended FAB to add the right amount of emphasis for an action. In compact windows with one prominent action, the large extended FAB can be appropriate. In larger breakpoints, use a medium or large extended FAB.
 - Container The extended FAB container is a rounded rectangle that hugs its contents. The extended FAB grows and shrinks with text length.
 - Icon (optional) An extended FAB's icon should intuitively represent its action.
 - Label text The extended FAB's label should clearly describe its action. Use 1-2 words at most. Keep in mind that localization may increase the amount of characters and width of the extended FAB.
 - Avoid putting other floating components, like the floating toolbar, on screen with the extended FAB.
 - The FAB and extended FAB can transform into each other depending on available space and layout. In a collapsed navigation rail, a FAB would be used. When the rail is expanded, the FAB can transform into an extended FAB.
 - Right-to-left languages Extended FABs should mirror their elements in right-to-left (RTL) languages.
-- Window sizes In compact and medium breakpoints, the extended FAB should be placed at the bottom of the screen, either center-aligned or aligned to the trailing edge of the window.
+- Breakpoints In compact and medium breakpoints, the extended FAB should be placed at the bottom of the screen, either center-aligned or aligned to the trailing edge of the window.
 - At the bottom right edge of the window, in both LTR and RTL languages
 - Within the navigation rail
 - Appearing The extended FAB surface expands when appearing on screen using an enter and exit transition pattern.
