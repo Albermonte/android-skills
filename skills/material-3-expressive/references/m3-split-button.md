@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/split-button/overview
-Generated: 2026-08-03
+Generated: 2026-08-10
 
 Extracted guidance
 - Use to show an action with a menu of related actions
