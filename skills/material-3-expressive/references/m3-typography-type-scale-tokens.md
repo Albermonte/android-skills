@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/styles/typography/type-scale-tokens
-Generated: 2026-08-10
+Generated: 2026-08-17
 
 Extracted guidance
 - Use variable fonts for more control over expression in editorial treatments
@@ -43,6 +43,15 @@ Extracted guidance
 - The plain typeface is used for smaller type styles, like Body and Label, to focus on readability.
 - Roboto is the default for both typefaces.
 - Brand and plain typeface tokens
+- Language height support
+- It's recommended to default to medium language height , as most languages fall in that category, and switch to other sizes based on detected language.
+- Material components that use vertical padding should adapt to language height automatically. Components with fixed heights are built for small values and may not adapt by default.
+- Ignoring language height can lead to overlapping text and broken UI elements, leading to major internationalization issues and failing readability standards.
+- Small (base) : Cyrillic, Greek, Hebrew, Latin-based languages (except Vietnamese)
+- Medium (~7% taller) : Amharic, Arabic, Armenian, Bangla, Chinese, Gujarati, Hindi, Japanese, Kannada, Khmer, Korean, Lao, Malayalam, Odia, Punjabi, Sinhala, Tamil, Thai, Vietnamese, most other languages.
+- Large (~30% taller) : Burmese, Telugu
+- Extra large (~100% taller) : Nastaliq
+- Language height tokens Open the line height folder and select the language height context in the token module to view the heights for each category. Note: Other tokens like fonts and weights are in the same token set.
 - Customizing type styles
 - If using a different typeface, change the brand and plain typeface tokens.
 - Adjust properties like line height and letter spacing to refine the appearance. Avoid changing the type size; this can affect how components render and reflow.

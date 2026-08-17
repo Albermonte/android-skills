@@ -1,7 +1,7 @@
 # Color Foundation Tokens (M3 Expressive)
 
 Source URL:
-https://m3.material.io/_dsm/data/dsdb-m3/2026-08-05_09-00-19/COLOR.20543ce18892f7d9.json
+https://m3.material.io/_dsm/data/dsdb-m3/2026-08-12_10-00-15/COLOR.20543ce18892f7d9.json
 
 Extracted design tokens
 
