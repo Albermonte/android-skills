@@ -1,14 +1,29 @@
 # Typography Foundation Tokens (M3 Expressive)
 
 Source URL:
-https://m3.material.io/_dsm/data/dsdb-m3/2026-08-05_09-00-19/TYPOGRAPHY.20543ce18892f7d9.json
+https://m3.material.io/_dsm/data/dsdb-m3/2026-08-12_10-00-15/TYPOGRAPHY.20543ce18892f7d9.json
 
 Extracted design tokens
 
 Token group index
+- md.ref.typeface.body-large
+- md.ref.typeface.body-medium
+- md.ref.typeface.body-small
 - md.ref.typeface.brand
+- md.ref.typeface.display-large
+- md.ref.typeface.display-medium
+- md.ref.typeface.display-small
 - md.ref.typeface.emphasized
+- md.ref.typeface.headline-large
+- md.ref.typeface.headline-medium
+- md.ref.typeface.headline-small
+- md.ref.typeface.label-large
+- md.ref.typeface.label-medium
+- md.ref.typeface.label-small
 - md.ref.typeface.plain
+- md.ref.typeface.title-large
+- md.ref.typeface.title-medium
+- md.ref.typeface.title-small
 - md.ref.typeface.variable
 - md.ref.typeface.weight-bold
 - md.ref.typeface.weight-medium
@@ -33,14 +48,59 @@ Token group index
 - md.sys.typescale.title-small
 - md.sys.typescale.variable
 
+## md.ref.typeface.body-large
+- md.ref.typeface.body-large.line-height: 24pt
+
+## md.ref.typeface.body-medium
+- md.ref.typeface.body-medium.line-height: 20pt
+
+## md.ref.typeface.body-small
+- md.ref.typeface.body-small.line-height: 16pt
+
 ## md.ref.typeface.brand
 - md.ref.typeface.brand: Google Sans
+
+## md.ref.typeface.display-large
+- md.ref.typeface.display-large.line-height: 64pt
+
+## md.ref.typeface.display-medium
+- md.ref.typeface.display-medium.line-height: 52pt
+
+## md.ref.typeface.display-small
+- md.ref.typeface.display-small.line-height: 44pt
 
 ## md.ref.typeface.emphasized
 - md.ref.typeface.emphasized.rond: ROND=100
 
+## md.ref.typeface.headline-large
+- md.ref.typeface.headline-large.line-height: 40pt
+
+## md.ref.typeface.headline-medium
+- md.ref.typeface.headline-medium.line-height: 36pt
+
+## md.ref.typeface.headline-small
+- md.ref.typeface.headline-small.line-height: 32pt
+
+## md.ref.typeface.label-large
+- md.ref.typeface.label-large.line-height: 20pt
+
+## md.ref.typeface.label-medium
+- md.ref.typeface.label-medium.line-height: 16pt
+
+## md.ref.typeface.label-small
+- md.ref.typeface.label-small.line-height: 16pt
+
 ## md.ref.typeface.plain
 - md.ref.typeface.plain: Google Sans Text
+
+## md.ref.typeface.title-large
+- md.ref.typeface.title-large.line-height: 28pt
+
+## md.ref.typeface.title-medium
+- md.ref.typeface.title-medium.line-height: 24pt
+
+## md.ref.typeface.title-small
+- md.ref.typeface.title-small.line-height: 20pt
 
 ## md.ref.typeface.variable
 - md.ref.typeface.variable.brand: Google Sans Flex

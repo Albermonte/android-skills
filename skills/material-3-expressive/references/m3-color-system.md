@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/styles/color/system/overview
-Generated: 2026-08-10
+Generated: 2026-08-17
 
 Extracted guidance
 - Built-in set of accessible color relationships
