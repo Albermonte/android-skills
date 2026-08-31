@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/buttons/overview
-Generated: 2026-08-24
+Generated: 2026-08-31
 
 Extracted guidance
 - Two variants: default and toggle
