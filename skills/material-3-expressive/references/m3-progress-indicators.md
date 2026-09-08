@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/progress-indicators/overview
-Generated: 2026-08-31
+Generated: 2026-09-07
 
 Extracted guidance
 - Two variants: linear and circular

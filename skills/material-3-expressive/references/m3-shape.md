@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/styles/shape
-Generated: 2026-08-31
+Generated: 2026-09-07
 
 Extracted guidance
 - Use abstract shapes thoughtfully to add emphasis and decorative flair

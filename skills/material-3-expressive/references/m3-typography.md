@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/styles/typography/overview
-Generated: 2026-08-31
+Generated: 2026-09-07
 
 Extracted guidance
 - Use variable fonts for more control over expression in editorial treatments
@@ -51,7 +51,8 @@ Extracted guidance
 - Medium (~7% taller) : Amharic, Arabic, Armenian, Bangla, Chinese, Gujarati, Hindi, Japanese, Kannada, Khmer, Korean, Lao, Malayalam, Odia, Punjabi, Sinhala, Tamil, Thai, Vietnamese, most other languages.
 - Large (~30% taller) : Burmese, Telugu
 - Extra large (~100% taller) : Nastaliq
-- Language height tokens Open the line height folder and select the language height context in the token module to view the heights for each category. Note: Other tokens like fonts and weights are in the same token set.
+- Open the line height folder (Note: Other tokens like fonts and weights are in the same token set)
+- Change the language height context at the top of the token module
 - Customizing type styles
 - If using a different typeface, change the brand and plain typeface tokens.
 - Adjust properties like line height and letter spacing to refine the appearance. Avoid changing the type size; this can affect how components render and reflow.
