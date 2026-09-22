@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/extended-fab/overview
-Generated: 2026-09-14
+Generated: 2026-09-21
 
 Extracted guidance
 - Use for the most common or important action on a screen
