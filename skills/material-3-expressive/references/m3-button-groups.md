@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/button-groups/overview
-Generated: 2026-09-21
+Generated: 2026-09-28
 
 Extracted guidance
 - Two variants: standard and connected
@@ -55,6 +55,6 @@ Extracted guidance
 - Identify when buttons are selected
 - Interaction & style Each button in a group should have a minimum 48x48dp target. Extra small and small button groups have larger inner padding to ensure accessible targets. Avoid reducing the padding in these sizes.
 - Initial focus The button group container is not a focusable element. Initial focus should land on the first button in the group and then move to each button.
-- Use Tab to navigate through each item in the group, and Space or Enter to select buttons.
-- Keyboard navigation Keys Actions Tab Navigates to the next button Space or Enter Activates the focused button
-- Labeling elements The button group container does not need to be labeled. Label each button according to the button and icon button accessibility guidance.
+- Use Tab to navigate to a button group, the arrow keys to navigate between each item in the group, and Space or Enter to select a focused button.
+- Keyboard navigation Keys Actions Tab Navigate between buttons Arrow keys Navigate inside the component Space or Enter Activate a focused button
+- Labeling elements The button group container doesn't need to be labeled. Label each button according to the button and icon button accessibility guidance.
