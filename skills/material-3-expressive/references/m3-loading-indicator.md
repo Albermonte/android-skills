@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/loading-indicator/overview
-Generated: 2026-09-28
+Generated: 2026-10-05
 
 Extracted guidance
 - Recommended as a replacement for indeterminate circular progress indicators

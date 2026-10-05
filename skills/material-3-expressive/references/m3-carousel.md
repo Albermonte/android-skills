@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/carousel/overview
-Generated: 2026-09-28
+Generated: 2026-10-05
 
 Extracted guidance
 - Contain visual items like images or video, along with optional label text

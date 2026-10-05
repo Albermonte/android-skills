@@ -3,7 +3,7 @@
 Source URLs:
 - https://m3.material.io/components/bottom-sheets/overview
 - https://m3.material.io/components/side-sheets/overview
-Generated: 2026-09-28
+Generated: 2026-10-05
 
 Extracted guidance
 - Use bottom sheets in compact and medium breakpoints
