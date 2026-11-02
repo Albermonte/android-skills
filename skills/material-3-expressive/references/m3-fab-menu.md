@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/fab-menu/overview
-Generated: 2026-10-19
+Generated: 2026-11-02
 
 Extracted guidance
 - One FAB menu size for all sizes of FABs
