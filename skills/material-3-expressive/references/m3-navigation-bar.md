@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/navigation-bar/overview
-Generated: 2026-10-19
+Generated: 2026-11-09
 
 Extracted guidance
 - Use navigation bars in compact or medium window sizes

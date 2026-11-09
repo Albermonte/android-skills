@@ -2,7 +2,7 @@
 
 Source URL:
 https://m3.material.io/components/floating-action-button/overview
-Generated: 2026-10-19
+Generated: 2026-11-09
 
 Extracted guidance
 - Use a FAB for the most common or important action on a screen
